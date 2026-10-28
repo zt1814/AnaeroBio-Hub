@@ -1,0 +1,9 @@
+CAS_RN,Chemical_Name,Target_Clipped_Pct,Biowin7_Anaerobic_Prob,OOF_M1_Only_Pct,OOF_M12_Pct,OOF_M123_Pct,OOF_Pred_Degrad_Pct,AD_Status
+106-44-5,p-Cresol,75.33,0.1633,18.48,11.7,61.53,60.72,In-Domain
+84-74-2,Dibutyl phthalate,93.33,0.1594,37.99,31.28,54.96,52.7,In-Domain
+1163-19-5,bis(pentabromophenyl) ether,0.0,1.0141,-9.35,6.41,12.63,10.4,Out-of-Domain
+10595-49-0,"3-(dodecanoylamino)-N,N,N-trimethylpropan-1-aminium methyl sulfate",72.5,-0.5472,62.13,37.72,41.31,42.74,In-Domain
+638-16-4,"1,3,5-triazine-2,4,6(1H,3H,5H)-trithione",-20.5,-0.8675,2.7,-5.92,-6.4,-9.02,Out-of-Domain
+110-00-9,Furan,-22.0,0.4544,27.09,12.48,17.61,7.61,In-Domain
+110-02-1,Thiophene,-21.0,0.4544,7.8,-3.12,-0.59,-5.07,In-Domain
+87-86-5,Pentachlorophenol,-30.0,-1.0946,-23.02,-23.55,-23.59,-24.01,Out-of-Domain

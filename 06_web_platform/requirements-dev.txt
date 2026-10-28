@@ -1,0 +1,5 @@
+# Dev / CI only (not installed in the production image)
+-r requirements.txt
+pytest>=8
+httpx>=0.27          # FastAPI TestClient used by test_platform_v4.py
+rdkit>=2024.9.1      # optional locally; model_engine.py falls back to built-in desalting without it

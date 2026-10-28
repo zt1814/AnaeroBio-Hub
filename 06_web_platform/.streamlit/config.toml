@@ -1,0 +1,15 @@
+# Theme colours follow the visitor's light/dark preference; only brand colour + font are fixed.
+[theme]
+primaryColor = "#0f766e"
+font = "sans serif"
+
+[server]
+headless = true
+enableXsrfProtection = true
+maxUploadSize = 5
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"

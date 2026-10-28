@@ -1,0 +1,60 @@
+{
+  "note": "OOF = 5-fold out-of-fold prediction made while the molecule was held out (cross-validation, blind). Sludge348 = Tier-1 digested-sludge cohort model; Full496 = full benchmark model.",
+  "examples": [
+    {
+      "cas": "106-44-5",
+      "name": "p-Cresol",
+      "why": "Gate II: Benzoyl-CoA route; BIOWIN 7 under-predicts",
+      "measured_pct": 75.3,
+      "oof_sludge348_pct": 60.7,
+      "oof_full496_pct": 72.0,
+      "biowin7_prob": 0.163,
+      "ad_status": "In-Domain",
+      "ad_knn_distance": 1.39
+    },
+    {
+      "cas": "10595-49-0",
+      "name": "Lauramidopropyl betaine-type quat",
+      "why": "Gate II: cleavable surfactant (amidase hydrolysis)",
+      "measured_pct": 72.5,
+      "oof_sludge348_pct": 42.7,
+      "oof_full496_pct": 49.2,
+      "biowin7_prob": -0.547,
+      "ad_status": "In-Domain",
+      "ad_knn_distance": 3.5
+    },
+    {
+      "cas": "1163-19-5",
+      "name": "Decabromodiphenyl ether",
+      "why": "Gate I: mass-transfer / steric barrier; out of domain",
+      "measured_pct": 0.0,
+      "oof_sludge348_pct": 10.4,
+      "oof_full496_pct": 9.3,
+      "biowin7_prob": 1.014,
+      "ad_status": "Out-of-Domain",
+      "ad_knn_distance": 16.01
+    },
+    {
+      "cas": "638-16-4",
+      "name": "Trithiocyanuric acid (TMT)",
+      "why": "Gate III: F430 chelation, negative alert",
+      "measured_pct": -20.5,
+      "oof_sludge348_pct": -9.0,
+      "oof_full496_pct": -7.0,
+      "biowin7_prob": -0.868,
+      "ad_status": "Out-of-Domain",
+      "ad_knn_distance": 6.34
+    },
+    {
+      "cas": "87-86-5",
+      "name": "Pentachlorophenol",
+      "why": "Gate III: uncoupler / inhibitor, negative alert",
+      "measured_pct": -30.0,
+      "oof_sludge348_pct": -24.0,
+      "oof_full496_pct": -15.5,
+      "biowin7_prob": -1.095,
+      "ad_status": "Out-of-Domain",
+      "ad_knn_distance": 6.6
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Cohort,AD_Partition,N,Coverage_Pct,R2,Pearson_r,Spearman_rho,RMSE,MAE
+Tier-1 Digested Sludge (N=348),In-Domain,295,84.8,0.6464,0.8053,0.7707,26.86,19.49
+Tier-1 Digested Sludge (N=348),Out-of-Domain,53,15.2,0.3712,0.6345,0.6155,28.96,20.79
+Tier-1 Digested Sludge (N=348),All,348,100.0,0.6195,0.7876,0.7688,27.19,19.69
+Full Benchmark (N=496),In-Domain,421,84.9,0.5597,0.7515,0.7031,28.61,22.01
+Full Benchmark (N=496),Out-of-Domain,75,15.1,0.4518,0.6882,0.6756,28.13,23.07
+Full Benchmark (N=496),All,496,100.0,0.5467,0.7431,0.7057,28.54,22.17

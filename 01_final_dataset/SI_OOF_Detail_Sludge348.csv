@@ -1,0 +1,351 @@
+CAS_RN,Chemical_Name,SMILES,Tiers,Is_Tier1_Sludge_Assay,Mean_Anaerobic_Degrad_Pct,Biowin7_Anaerobic_Prob,Target_Clipped_Pct,OOF_Pred_Degrad_Pct,OOF_M1_Only_Pct,OOF_M12_Pct,OOF_M123_Pct,AD_KNN_Distance,AD_Status
+106-44-5,p-Cresol,Cc1ccc(O)cc1,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,75.33157894736841,0.1633,75.33,60.72,18.48,11.7,61.53,1.3892,In-Domain
+,"reaction products of 1h-imidazole-1-ethanol, 4,5-dihydro-, 2-(c7-c17 odd-numbered, c17-unsatd. alkyl) derivs. and sodium hydroxide and chloroacetic acid",O.[Na+].[Na+].[Cl-].OCC([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,62.875,1.1816,62.88,86.12,91.71,90.78,91.27,1.9431,In-Domain
+108-39-4,m-Cresol,Cc1cccc(O)c1,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,80.45454545454545,0.1633,80.45,58.51,18.48,11.43,59.83,1.2749,In-Domain
+160901-28-0,"Alcohols, C9-11, branched and linear, ethoxylated, sulfates, sodium salts",[Na+].[Na+].[O-]S([O-])(=O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,54.260000000000005,0.8361,54.26,62.8,55.66,70.55,57.52,2.9636,In-Domain
+112-30-1,decan-1-ol,CCCCCCCCCCO,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,87.675,0.8055,87.68,87.23,79.45,86.85,87.32,1.2066,In-Domain
+108-95-2,Phenol,Oc1ccccc1,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,83.7625,0.6578,83.76,67.08,20.43,61.04,65.13,1.2942,In-Domain
+1643-20-5,dodecyldimethylamine oxide,CCCCCCCCCCCC[N+](C)(C)[O-],Tier1_Anaerobic_Sludge_Screening_CH4,1,43.875,0.1278,43.88,48.65,47.12,26.1,46.87,2.8953,In-Domain
+2605-79-0,decyl(dimethyl)amine oxide,CCCCCCCCCC[N+](C)(C)[O-],Tier1_Anaerobic_Sludge_Screening_CH4,1,43.875,0.0758,43.88,40.71,45.09,20.0,39.34,2.8904,In-Domain
+308062-29-5,"Amines, C14-16 (even numbered)-alkyldimethyl, N-oxides",OO.CCCCCCCCCCCC[N+](C)(C)[O-].CCCCCCCCCCCCCC[N+](C)(C)[O-].CCCCCCCCCCCCCCCC[N+](C)(C)[O-].CCCCCCCCCCCCCCCCCC[N+](C)(C)[O-],Tier1_Anaerobic_Sludge_Screening_CH4,1,43.875,0.2838,43.88,50.73,47.38,47.1,49.95,3.5478,In-Domain
+308062-28-4,"Amines, C12-14-alkyldimethyl, N-oxides",OO.CCCCCCCCCC[N+](C)(C)[O-].CCCCCCCCCCCC[N+](C)(C)[O-].CCCCCCCCCCCCCC[N+](C)(C)[O-].CCCCCCCCCCCCCCCC[N+](C)(C)[O-],Tier1_Anaerobic_Sludge_Screening_CH4,1,43.875,0.2318,43.88,50.56,40.98,44.21,50.71,3.3382,In-Domain
+117-81-7,"1,2-bis(2-ethylhexyl) benzene-1,2-dicarboxylate",CCCCC(CC)COC(=O)c1ccccc1C(=O)OCC(CC)CCCC,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,37.5,-0.2275,37.5,45.47,23.27,42.13,49.65,5.2124,Out-of-Domain
+93924-10-8,"Alkenes, C20-24 .alpha.-",CCCCCCCCCCCCCCCCCCCCC=C,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,37.16,0.712,37.16,29.12,23.55,49.06,38.3,8.5264,Out-of-Domain
+84-74-2,Dibutyl phthalate,CCCCOC(=O)c1ccccc1C(=O)OCCCC,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,93.33333333333331,0.1594,93.33,52.7,37.99,31.28,54.96,3.5864,In-Domain
+57-10-3,palmitic acid,CCCCCCCCCCCCCCCC(O)=O,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,81.0,0.9894,81.0,82.15,74.47,80.28,83.05,1.4385,In-Domain
+1335202-95-3,"Fatty acids, C18 (even numbered) and C18 unsatd., reaction products with triethanolamine, di-Me sulfate quaternized",COS([O-])(=O)=O.[NH3+]C(CCO)(CCO)CCO,Tier1_Anaerobic_Sludge_Screening_CH4,1,74.0,0.5388,74.0,61.95,55.66,57.95,55.85,3.702,In-Domain
+,1-[2-(benzoyloxy)propoxy]propan-2-yl benzoate; 2-[2-(benzoyloxy)ethoxy]ethyl benzoate; 2-{2-[2-(benzoyloxy)ethoxy]ethoxy}ethyl benzoate,O=C(OCCOCCOC(=O)c1ccccc1)c1ccccc1.CC(COC(=O)c1ccccc1)OCC(C)OC(=O)c1ccccc1.CC(COCC(C)OC(=O)c1ccccc1)OC(=O)c1ccccc1.O=C(OCCOCCOCCOC(=O)c1ccccc1)c1ccccc1,Tier1_Anaerobic_Sludge_Screening_CH4,1,62.66666666666666,-0.0343,62.67,52.46,42.17,50.01,50.42,9.5437,Out-of-Domain
+108-89-4,4-Methylpyridine,Cc1ccncc1,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,35.5,0.7237,35.5,62.83,24.23,64.51,60.82,1.7887,In-Domain
+68541-50-4,"2-ethyl-2-(((1-oxoisooctadecyl)oxy)methyl)-1,3-propanediyl bis (isooctadecanoate)",CCC(COC(=O)CCCCCCCCCCCCCCC(C)C)(COC(=O)CCCCCCCCCCCCCCC(C)C)COC(=O)CCCCCCCCCCCCCCC(C)C,Tier1_Anaerobic_Sludge_Screening_CH4,1,12.566666666666668,1.1584,12.57,65.71,61.21,63.77,66.2,13.3182,Out-of-Domain
+68891-38-3,"alcohols, c12-14(even numbered), ethoxylated < 2.5 eo, sulfates, sodium salts",CCCCCCCCCCCCCO,Tier1_Anaerobic_Sludge_Screening_CH4,1,54.260000000000005,0.8834,54.26,86.14,80.22,86.61,86.48,1.6779,In-Domain
+157627-92-4,"Alcohols, C10-16, ethoxylated (1-2.5 EO), sulfates, mono (hydroxyethyl) ammonium salts",NCCO.NCCO.NCCO.NCCO.CCCCCCCCCCOCCOCCOS(O)(=O)=O.CCCCCCCCCCCCOCCOCCOS(O)(=O)=O.CCCCCCCCCCCCCCCCOCCOCCOS(O)(=O)=O.CCCCCCCCCCCCCCOCCOOS(=O)(=O)OC(N)CO,Tier1_Anaerobic_Sludge_Screening_CH4,1,54.260000000000005,0.7416,54.26,65.42,59.62,47.71,61.57,9.4032,Out-of-Domain
+157627-94-6,"Alcohols C12-14, ethoxylated (1-2.5 EO) sulfated, trieth salts",OCCN(CCO)CCO.OCCN(CCO)CCO.OCCN(CCO)CCO.OCCN(CCO)CCO.OCCN(CCO)CCO.CCCCCCCCCCOCCOCCOS(O)(=O)=O.CCCCCCCCCCCCOCCOCCOS(O)(=O)=O.CCCCCCCCCCCCCCOCCOCCOS(O)(=O)=O.CCCCCCCCCCCCCCCCOCCOCCOS(O)(=O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,54.260000000000005,0.4181,54.26,53.34,54.82,40.7,52.96,9.9683,Out-of-Domain
+68891-29-2,"Alcohols, C8-10, ethoxylated, sulfates, ammonium salts [1 - 2.5 moles ethoxylated]",[NH4+].[NH4+].[NH4+].[O-]S([O-])(=O)=O.CCCCCCCCCCCCOCCOS([O-])(=O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,54.260000000000005,,54.26,78.58,61.52,74.0,76.65,4.0339,In-Domain
+161074-79-9,"Alcohols, C12-13, branched and linear, ethoxylated, sulfates, sodium salts",[Na+].[Na+].C1CO1.[O-]S([O-])(=O)=O.C1COCCO1,Tier1_Anaerobic_Sludge_Screening_CH4,1,54.260000000000005,-0.1585,54.26,56.9,50.51,19.99,50.95,3.7362,In-Domain
+68610-66-2,"Alcohols, C10-12 (even numbered), ethoxylated (1-2.5 EO), sulfated, sodium salts",[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[O-]S([O-])(=O)=O.CCCCCCCCCCO.CCCCCCCCCCCCO.CCCCCCCCCCCCCCO.CCCCCCCCCCOS([O-])(=O)=O.CCCCCCCCCCCCOS([O-])(=O)=O.CCCCCCCCCCCCCCOS([O-])(=O)=O.CCCCCCCCCCCCOCCOS([O-])(=O)=O.CCCCCCCCCCCCOCCOS([O-])(=O)=O.CCCCCCCCCCCCOCCOCCOS([O-])(=O)=O.CCCCCCCCCCCCOCCOCCOCCOS([O-])(=O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,54.260000000000005,,54.26,61.43,60.81,53.35,61.75,15.8969,Out-of-Domain
+16470-24-9,"tetrasodium 2,2'-ethene-1,2-diylbis[5-({4-[bis(2-hydroxyethyl)amino]-6-[(4-sulfonatophenyl)amino]-1,3,5-triazin-2-yl}amino)benzenesulfonate]",[Na+].[Na+].[Na+].[Na+].OCCN(CCO)c1nc(Nc2ccc(cc2)S([O-])(=O)=O)nc(Nc2ccc(\C=C\c3ccc(Nc4nc(Nc5ccc(cc5)S([O-])(=O)=O)nc(n4)N(CCO)CCO)cc3S([O-])(=O)=O)c(c2)S([O-])(=O)=O)n1,Tier1_Anaerobic_Sludge_Screening_CH4,1,25.6,-4.8328,25.6,37.09,18.88,21.76,36.37,6.5964,Out-of-Domain
+16090-02-1,"disodium 2,2'-ethene-1,2-diylbis{5-[(4-anilino-6-morpholin-4-yl-1,3,5-triazin-2-yl)amino]benzenesulfonate}",[Na+].[Na+].[O-]S(=O)(=O)c1cc(Nc2nc(Nc3ccccc3)nc(n2)N2CCOCC2)ccc1\C=C\c1ccc(Nc2nc(Nc3ccccc3)nc(n2)N2CCOCC2)cc1S([O-])(=O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,22.2,-6.0472,22.2,16.94,32.12,16.73,16.7,9.1095,Out-of-Domain
+95-48-7,o-Cresol,Cc1ccccc1O,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,18.0,0.1633,18.0,6.55,50.31,58.61,5.48,0.9478,In-Domain
+532-32-1,Sodium benzoate,[Na+].[O-]C(=O)c1ccccc1,Tier1_Anaerobic_Sludge_Screening_CH4,1,90.2125,0.8427,90.21,85.0,37.47,90.05,88.59,4.7154,In-Domain
+506-51-4,tetracosan-1-ol,CCCCCCCCCCCCCCCCCCCCCCCCO,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,87.675,1.1693,87.68,74.97,62.21,72.5,76.02,1.7178,In-Domain
+661-19-8,docosan-1-ol,CCCCCCCCCCCCCCCCCCCCCCO,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,87.675,1.1173,87.68,82.06,77.07,79.03,82.0,1.1842,In-Domain
+629-96-9,icosan-1-ol,CCCCCCCCCCCCCCCCCCCCO,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,87.675,1.0654,87.68,85.34,79.45,85.76,85.43,0.9403,In-Domain
+112-92-5,octadecan-1-ol,CCCCCCCCCCCCCCCCCCO,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,87.675,1.0134,87.68,75.98,76.63,64.33,73.83,0.7546,In-Domain
+36653-82-4,hexadecan-1-ol,CCCCCCCCCCCCCCCCO,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,87.675,0.9614,87.68,78.41,55.55,71.99,78.11,0.9083,In-Domain
+112-72-1,tetradecan-1-ol,CCCCCCCCCCCCCCO,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,87.675,0.9094,87.68,75.47,58.95,70.18,75.35,1.0461,In-Domain
+112-53-8,dodecan-1-ol,CCCCCCCCCCCCO,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,87.675,0.8574,87.68,79.27,74.67,77.91,80.05,0.8583,In-Domain
+112-42-5,undecan-1-ol,CCCCCCCCCCCO,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,87.675,0.8314,87.68,86.9,80.26,86.7,87.04,1.2365,In-Domain
+143-08-8,nonan-1-ol,CCCCCCCCCO,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,87.675,0.7795,87.68,85.89,75.15,86.39,87.01,0.8305,In-Domain
+111-87-5,octan-1-ol,CCCCCCCCO,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,87.675,0.7535,87.68,86.23,80.34,85.21,85.33,0.6103,In-Domain
+111-27-3,hexan-1-ol,CCCCCCO,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,87.675,0.7015,87.68,82.55,48.96,83.07,83.31,0.5661,In-Domain
+1335202-88-4,"Fatty acids, C16-18 (even numbered) and C18 unsatd., reaction products with triethanolamine, di-Me sulfate-quaternized",CCCCCCCCCCCCCCCCC(O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,74.0,1.0154,74.0,82.61,81.58,82.06,83.19,1.1482,In-Domain
+,1-[2-(benzoyloxy)propoxy]propan-2-yl benzoate; 2-[2-(benzoyloxy)ethoxy]ethyl benzoate,O=C(OCCOCCOC(=O)c1ccccc1)c1ccccc1.CC(COC(=O)c1ccccc1)OCC(C)OC(=O)c1ccccc1.CC(COC(=O)c1ccccc1)OC(C)COC(=O)c1ccccc1.CC(COCC(C)OC(=O)c1ccccc1)OC(=O)c1ccccc1,Tier1_Anaerobic_Sludge_Screening_CH4,1,61.25,-0.0343,61.25,56.75,59.12,59.75,55.41,10.849,Out-of-Domain
+2060541-49-1,"1,3-Propanediamine, N1-(3-aminopropyl)-N3-[3-(C18, C18 unsat) alkylamino]propyl]-, N-(carboxymethyl) derivs., sodium salts",O.[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].CC(Cl)=O.OCC(O)=O.OC(=O)C(Cl)Cl.CCCCCCCCCCCCCCCCCCN(CCCN(CC([O-])=O)CC([O-])=O)CC([O-])=O.CCCCCCCC\C=C/CCCCCCCCN(CCCN(CC([O-])=O)CC([O-])=O)CC([O-])=O.CCCCCCCCCCCCCCCCCCN(CCCN(CCCNCC([O-])=O)CC([O-])=O)CC([O-])=O.CCCCCCCCCCCCCCCCN(CCCN(CCCN(CCCNCC([O-])=O)CC([O-])=O)CC([O-])=O)CC([O-])=O.CCCCCCCCCCCCCCCCCCN(CCCN(CCCN(CCCNCC([O-])=O)CC([O-])=O)CC([O-])=O)CC([O-])=O.CCCCCCCCCCCCCCCCCCN(CCCN(CCCN(CCCN(CC([O-])=O)CC([O-])=O)CC([O-])=O)CC([O-])=O)CC([O-])=O.CCCCCCCC\C=C/CCCCCCCCN(CCCN(CCCN(CCCN(CC([O-])=O)CC([O-])=O)CC([O-])=O)CC([O-])=O)CC([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,56.75,,56.75,48.38,62.69,61.64,56.91,20.9187,Out-of-Domain
+94441-92-6,Sodium N-(2-carboxyethyl)-N-(2-ethylhexyl)-β-alaninate,[Na+].CCCCC(CC)CN(CCC(O)=O)CCC([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,51.5,-0.274,51.5,21.12,66.76,26.85,21.68,4.6462,In-Domain
+,c14-16 (even numbered) and c16 (branched) saturated and unsaturated aliphatic hydrocarbons,CCCCCCCCCCCCCC.CCCCCCCCCCCCC=C.CCCCCCCCCCCC=CC.CCCCCCCCCCC\C=C\C.CCCCCCCCC=CCCCCCC.CCCCCCCCC(C)CCCCCC,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,30.62,,30.62,15.87,28.18,30.93,30.58,8.5619,Out-of-Domain
+1163-19-5,bis(pentabromophenyl) ether,Brc1c(Br)c(Br)c(Oc2c(Br)c(Br)c(Br)c(Br)c2Br)c(Br)c1Br,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,0.0,1.0141,0.0,10.4,-9.35,6.41,12.63,16.0073,Out-of-Domain
+65-85-0,Benzoic acid,OC(=O)c1ccccc1,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,100.0,0.8427,100.0,75.99,69.74,84.49,75.93,1.7072,In-Domain
+533-00-6,barium dibenzoate,[Ba+2].[O-]C(=O)c1ccccc1.[O-]C(=O)c1ccccc1,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,100.0,0.3181,100.0,53.52,27.87,12.6,52.35,4.0367,In-Domain
+2090-05-3,Calcium dibenzoate,[Ca+2].[O-]C(=O)c1ccccc1.[O-]C(=O)c1ccccc1,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,100.0,0.3181,100.0,52.81,38.84,10.75,51.43,3.8409,In-Domain
+147170-44-3,"1-Propanaminium, 3-amino-N-(carboxymethyl)-N,N-dimethyl-, N-(C8-18 and C18-unsatd. acyl) derivs., inner salts",O.[OH-].[OH-].[OH-].[OH-].[OH-].[Na+].[Cl-].OCC(O)=O.OCC(O)CO.CN(C)CCCN.CCCCCCCC(=O)NCCC[N+](C)(C)CC(O)=O.CCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)=O.CCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)=O.CCCCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)=O.CCCCCCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC([O-])=O.CCCCCCCCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,72.10000000000001,,72.1,49.53,55.57,58.93,50.86,14.1474,Out-of-Domain
+100-20-9,"benzene-1,4-dicarbonyl dichloride",ClC(=O)c1ccc(cc1)C(Cl)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,50.0,0.4544,50.0,18.98,10.14,26.85,19.31,2.7458,In-Domain
+,"D-Glucopyranose, oligomeric, butyl glycoside",CCCCO.OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C=O.CCCCOC1OC(CO)C(O)C(O)C1O,Tier1_Anaerobic_Sludge_Screening_CH4,1,111.0,0.9851,100.0,66.38,55.96,56.51,63.11,3.1301,In-Domain
+98283-67-1,"(2R,3S,4S,5R)-2-(hydroxymethyl)-6-(undecyloxy)oxane-3,4,5-triol",CCCCCCCCCCCOC1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O,Tier1_Anaerobic_Sludge_Screening_CH4,1,103.5,,100.0,58.18,53.68,63.92,48.54,2.4054,In-Domain
+56-23-5,Carbon tetrachloride,ClC(Cl)(Cl)Cl,Tier1_Anaerobic_Sludge_Screening_CH4,1,99.0,0.4432,99.0,38.99,44.66,1.39,43.07,4.0355,In-Domain
+56-45-1,L-Serine,N[C@@H](CO)C(O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,98.5,1.193,98.5,85.73,74.55,81.99,84.69,1.4566,In-Domain
+57-55-6,"propane-1,2-diol",CC(O)CO,Tier1_Anaerobic_Sludge_Screening_CH4,1,97.0,0.8822,97.0,69.5,82.6,88.96,67.29,2.1347,In-Domain
+72-19-5,L-Threonine,CC(O)[C@H](N)C(O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,97.0,0.9216,97.0,80.6,68.02,79.28,81.79,1.1834,In-Domain
+64755-01-7,"Fatty acids, tallow, calcium salts",[Ca+2].[Ca+2].[Ca+2].CCCCCCCCCCCCCCCC([O-])=O.CCCCCCCCCCCCCCCC([O-])=O.CCCCCCCCCCCCCCCCCC([O-])=O.CCCCCCCCCCCCCCCCCC([O-])=O.CCCCCCCC\C=C/CCCCCCCC([O-])=O.CCCCCCCC\C=C/CCCCCCCC([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,87.5,0.8424,87.5,68.56,78.49,69.08,70.65,6.4082,Out-of-Domain
+120-80-9,pyrocatechol,Oc1ccccc1O,Tier1_Anaerobic_Sludge_Screening_CH4,1,87.0,0.6158,87.0,77.91,73.96,81.87,82.58,0.9016,In-Domain
+150-76-5,4-Methoxyphenol,COc1ccc(O)cc1,Tier1_Anaerobic_Sludge_Screening_CH4,1,82.5,0.6335,82.5,78.91,65.6,69.04,78.98,0.7347,In-Domain
+,"Reaction mass of 1,4:3,6-dianhydro-D-glucitol monooleate and 1,4:3,6-dianhydro-D-glucitol dioleate",CCCCCCCC\C=C/CCCCCCCC(=O)O[C@H]1CO[C@@H]2[C@H](O)CO[C@H]12.CCCCCCCC\C=C/CCCCCCCC(=O)O[C@H]1CO[C@@H]2[C@@H](CO[C@H]12)OC(=O)CCCCCCC\C=C/CCCCCCCC,Tier1_Anaerobic_Sludge_Screening_CH4,1,78.5,0.2221,78.5,26.83,64.68,32.72,24.87,7.5304,Out-of-Domain
+,"Fatty acids, C8-18 (even numbered) and C18 unsatd., reaction products with triethanolamine, di-Me sulfate-quaternized",COS([O-])(=O)=O.C[N+](CCO)(CCO)CCO,Tier1_Anaerobic_Sludge_Screening_CH4,1,74.0,,74.0,62.49,56.27,60.25,64.49,2.6465,In-Domain
+10595-49-0,"3-(dodecanoylamino)-N,N,N-trimethylpropan-1-aminium methyl sulfate",COS([O-])(=O)=O.CCCCCCCCCCCC(=O)NCCC[N+](C)(C)C,Tier1_Anaerobic_Sludge_Screening_CH4,1,72.5,-0.5472,72.5,42.74,62.13,37.72,41.31,3.5035,In-Domain
+94313-91-4,bis(2-ethylhexyl) adipate,CS(=O)(=O)O[O-].C[N+](C)(C)CCCNC(=O)CCCCCCCCC=C,Tier1_Anaerobic_Sludge_Screening_CH4,1,72.5,-0.4225,72.5,41.43,62.18,27.14,36.78,3.7587,In-Domain
+,Reaction products of decanoic acid and lauric acid with glycerol and polyglycerol,OCC(O)CO.OCC(O)COCC(O)CO.OCC(O)COCC(O)COCC(O)CO.CCCCCCCCCC(=O)OCC(O)CO.CCCCCCCCCCCC(=O)OCC(O)CO.OCC(O)COCC(O)COCC(O)COCC(O)CO.CCCCCCCCCC(=O)OC(O)CCOCCC(O)O.CCCCCCCCCCCC(=O)OC(O)CCOCCC(O)O.OCC(CO)OCC(CO)OCC(CO)OCC(CO)OC(CO)CO.CCCCCCCCCC(=O)OCC(O)COC(=O)CCCCCCCCC.OCC(O)COCC(O)COCC(O)COCC(O)COCC(O)COCC(O)CO.CCCCCCCCCCCC(=O)OCC(CO)OC(=O)CCCCCCCCCCC,Tier1_Anaerobic_Sludge_Screening_CH4,1,68.5,-0.0713,68.5,57.36,64.21,50.47,54.29,28.1218,Out-of-Domain
+120-55-8,2-[2-(benzoyloxy)ethoxy]ethyl benzoate,O=C(OCCOCCOC(=O)c1ccccc1)c1ccccc1,Tier1_Anaerobic_Sludge_Screening_CH4,1,65.0,0.5086,65.0,43.06,40.03,41.67,40.46,3.1227,In-Domain
+25637-99-4,"(1S,2S,5S,6S,9S,10S)-1,2,5,6,9,10-hexabromocyclododecane",BrC1CCC(Br)C(Br)CCC(Br)C(Br)CCC1Br,Tier1_Anaerobic_Sludge_Screening_CH4,1,64.0,2.5072,64.0,15.99,6.41,11.3,13.27,11.631,Out-of-Domain
+83834-59-7,(2R)-2-ethylhexyl (2E)-3-(4-methoxyphenyl)prop-2-enoate; (2S)-2-ethylhexyl (2E)-3-(4-methoxyphenyl)prop-2-enoate,CCCCC(CC)COC(=O)\C=C\c1ccc(OC)cc1,Tier1_Anaerobic_Sludge_Screening_CH4,1,62.5,0.0648,62.5,10.4,23.46,4.78,10.17,4.2586,In-Domain
+19224-26-1,1-(benzoyloxy)propan-2-yl benzoate,CC(COC(=O)c1ccccc1)OC(=O)c1ccccc1,Tier1_Anaerobic_Sludge_Screening_CH4,1,57.5,0.4424,57.5,40.1,55.52,49.92,40.44,2.6321,In-Domain
+27138-31-4,1-[2-(benzoyloxy)propoxy]propan-2-yl benzoate; 1-{[1-(benzoyloxy)propan-2-yl]oxy}propan-2-yl benzoate; 2-{[1-(benzoyloxy)propan-2-yl]oxy}propyl benzoate,CCC(OC(CC)OC(=O)c1ccccc1)OC(=O)c1ccccc1,Tier1_Anaerobic_Sludge_Screening_CH4,1,57.5,-0.0343,57.5,41.14,27.39,32.44,41.75,2.8347,In-Domain
+670241-72-2,Nonyl benzoate,CC(C)CCCCCCOC(=O)c1ccccc1,Tier1_Anaerobic_Sludge_Screening_CH4,1,48.0,0.5799,48.0,42.17,12.5,43.74,46.43,4.2874,In-Domain
+73296-89-6,"Sulfuric acid, C12-16-alkyl(even numbered) esters, sodium salts",[Na+].[Na+].[Na+].[Na+].[Na+].[O-]S([O-])(=O)=O.CCCCCCCCCCCCOS([O-])(=O)=O.CCCCCCCCCCCCCCOS([O-])(=O)=O.CCCCCCCCCCCCCCCCOS([O-])(=O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,44.9,0.8286,44.9,63.29,61.11,60.97,60.66,5.3215,Out-of-Domain
+51981-21-6,tetrasodium 2-[bis(carboxylatomethyl)amino]pentanedioate,[Na+].[Na+].[Na+].[Na+].[O-]C(=O)CCC(N(CC([O-])=O)CC([O-])=O)C([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,33.5,0.4464,33.5,50.8,49.19,44.46,49.14,3.9116,In-Domain
+9005-67-8,"Sorbitan monostearate, ethoxylated",CCCCCCCCCCCCCCCCCC(=O)OCCOC[C@@H](OCCO)[C@H]1OC[C@@H](OCCO)[C@@H]1OCCO,Tier1_Anaerobic_Sludge_Screening_CH4,1,32.5,0.2049,32.5,32.38,58.67,39.38,25.71,5.3551,Out-of-Domain
+1591782-99-8,"D-Glucitol, 1-deoxy-1-(methylamino)-, N-[C18-C18 (unsaturated) acyl] derivs.",O.CC(O)CO.OCC(O)CO.OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)CO.CNC[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO,Tier1_Anaerobic_Sludge_Screening_CH4,1,29.75,1.0212,29.75,91.06,63.67,92.09,90.42,4.4283,In-Domain
+62-53-3,Aniline,Nc1ccccc1,Tier1_Anaerobic_Sludge_Screening_CH4,1,22.5,0.2993,22.5,38.68,45.75,37.56,38.84,4.7659,In-Domain
+189574-45-6,"lithium sodium 2-amino-4-{[4-(cyanoazanidyl)-6-[(3-sulfonatophenyl)amino]-1,3,5-triazin-2-yl]amino}-5-(2-{4-[2-(sulfonatooxy)ethanesulfonyl]phenyl}diazen-1-yl)benzene-1-sulfonate",[Li+].[Li+].[Na+].[Na+].Nc1cc(Nc2nc(Nc3cccc(c3)S([O-])(=O)=O)nc([N-]C#N)n2)c(cc1S([O-])(=O)=O)N=Nc1ccc(cc1)S(=O)(=O)CCOS([O-])(=O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,20.0,-1.7316,20.0,16.99,15.52,15.28,15.22,5.41,Out-of-Domain
+78952-61-1,"5-[[4-chloro-6-[(3-sulphophenyl)amino]-1,3,5-triazin-2-yl]amino]-4-hydroxy-3-[[4-[[2-(sulphooxy)ethyl]sulphonyl]phenyl]azo]naphthalene-2,7-disulphonic acid, sodium salt",[Na+].[Na+].[Na+].[Na+].Oc1c(\N=N\c2ccc(cc2)S(=O)(=O)CCOS([O-])(=O)=O)c(cc2cc(cc(Nc3nc(Cl)nc(Nc4cccc(c4)S([O-])(=O)=O)n3)c12)S([O-])(=O)=O)S([O-])(=O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,20.0,-2.2476,20.0,20.36,16.48,20.59,18.49,6.6387,Out-of-Domain
+85586-40-9,"5-(Benzoylamino)-4-hydroxy-3-((1-sulpho-6-((2-(sulphooxy)ethyl)sulphonyl)-2-naphthyl)azo)naphthalene-2,7-disulphonic acid, sodium salt 
+
+",[Na+].[Na+].[Na+].[Na+].Oc1c(\N=N\c2ccc3cc(ccc3c2S([O-])(=O)=O)S(=O)(=O)CCOS([O-])(=O)=O)c(cc2cc(cc(NC(=O)c3ccccc3)c12)S([O-])(=O)=O)S([O-])(=O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,20.0,-1.752,20.0,21.41,17.16,17.35,18.21,5.5547,Out-of-Domain
+1354632-48-6,"Benzenesulfonic acid, 4-(acetylamino)-2-amino-5-[2-[3-[[2-(sulfooxy)ethyl]sulfonyl]phenyl]diazenyl]-, sodium salt (1:2)",[Na+].[Na+].CC(=O)Nc1cc(N)c(cc1N=Nc1ccc(cc1)S(=O)(=O)CCOS([O-])(=O)=O)S([O-])(=O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,10.0,-0.9866,10.0,14.09,20.46,15.81,7.71,5.6298,Out-of-Domain
+84852-53-9,"1,1'-(ethane-1,2-diyl)bis[pentabromobenzene]",Brc1c(Br)c(Br)c(CCc2c(Br)c(Br)c(Br)c(Br)c2Br)c(Br)c1Br,Tier1_Anaerobic_Sludge_Screening_CH4,1,0.0,0.5925,0.0,17.65,-1.4,13.74,17.2,11.5083,Out-of-Domain
+68037-01-4,"8-ethyl-10,12-diheptyl-9,11,13-trimethylhenicosane; 8-ethyl-10-heptyl-9,11-dimethylnonadecane",CCCCCCCCC=C,Tier1_Anaerobic_Sludge_Screening_CH4,1,0.0,0.4001,0.0,0.66,26.81,7.02,2.57,1.092,In-Domain
+62132-67-6,"1-Dodecene, dimers",CCCCCCCCCCC=C.CCCCCCCCCCC=C,Tier1_Anaerobic_Sludge_Screening_CH4,1,0.0,0.4521,0.0,9.29,22.13,16.75,10.73,1.412,In-Domain
+70356-09-1,"1-(4-tert-Butylphenyl)-3-(4-methoxyphenyl)propane-1,3-dione",COc1ccc(cc1)C(=O)CC(=O)c1ccc(cc1)C(C)(C)C,Tier1_Anaerobic_Sludge_Screening_CH4,1,0.0,-1.1597,0.0,3.7,33.82,23.49,5.19,4.3739,In-Domain
+25321-14-6,"1-methyl-2,4-dinitrobenzene; 2-methyl-1,3-dinitrobenzene",Cc1ccc(cc1[N+]([O-])=O)[N+]([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,0.0,-0.2501,0.0,-16.4,10.31,-10.25,-14.93,1.9732,In-Domain
+14960-06-6,sodium 3-[(2-carboxyethyl)(dodecyl)amino]propanoate,[Na+].CCCCCCCCCCCCN(CCC(O)=O)CCC([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,0.0,0.1273,0.0,43.78,70.52,45.08,43.45,3.8657,In-Domain
+92-52-4,"1,1'-biphenyl",c1ccc(cc1)-c1ccccc1,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,0.0,0.3181,0.0,-3.75,-16.61,-14.16,-3.45,1.9244,In-Domain
+638-16-4,"1,3,5-triazine-2,4,6(1H,3H,5H)-trithione",S=C1NC(=S)NC(=S)N1,Tier1_Anaerobic_Sludge_Screening_CH4,1,-20.5,-0.8675,-20.5,-9.02,2.7,-5.92,-6.4,6.3409,Out-of-Domain
+17766-26-6,"1,3,5-Triazine-2,4,6(1H,3H,5H)-trithione, trisodium salt",[Na+].[Na+].[Na+].S=C1NC(=S)NC(=S)N1,Tier1_Anaerobic_Sludge_Screening_CH4,1,-20.5,-0.8675,-20.5,-9.36,-7.42,-7.49,-6.44,12.1738,Out-of-Domain
+,"(8Z)-16-{[(2R,4S,5S)-6-[(acetyloxy)methyl]-3-{[(2S,4S,5S)-6-[(acetyloxy)methyl]-3,4,5-trihydroxyoxan-2-yl]oxy}-4,5-dihydroxyoxan-2-yl]oxy}heptadec-8-enoic acid; [(1S,4S,5S,8R,17Z,27S,31R)-28-[(acetyloxy)methyl]-4,5,30,31-tetrahydroxy-10-methyl-25-oxo-2,7,9,26,29-pentaoxatricyclo[25.2.2.0³,⁸]hentriacont-17-en-6-yl]methyl acetate",O.[Na+].[K+].CC([O-])=O.OCC(O)CO.OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C=O.OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,110.7,,100.0,89.08,84.21,88.87,87.57,4.4735,In-Domain
+,[No public or meaningful name is available],OCC(O)CO.CC1CCCCCCC=CCCCCCCCC(=O)OC2C(COC(C)=O)CC(OC3C(C)C(O)C(CO)OC3O1)C(O)C2O,Tier1_Anaerobic_Sludge_Screening_CH4,1,110.7,,100.0,69.05,79.51,86.02,73.79,5.63,Out-of-Domain
+,Rhamnolipids: fermentation products of glucose with  Pseudomonas bacteria ,[Na+].[K+].[O-]P([O-])([O-])=O.[O-]S([O-])(=O)=O.CCCCCCCC(CC(=O)OC(CCCCCCC)CC(O)=O)O[C@@H]1O[C@@H](C)[C@H](O)[C@@H](O)[C@@H]1O[C@@H]1O[C@@H](C)[C@H](O)[C@@H](O)[C@@H]1O,Tier1_Anaerobic_Sludge_Screening_CH4,1,107.5,,100.0,72.34,63.58,73.54,70.25,6.3801,Out-of-Domain
+67-64-1,Acetone,CC(C)=O,Tier1_Anaerobic_Sludge_Screening_CH4;Tier2_Anaerobic_Sediment_Soil_Simulation,1,100.0,0.285,100.0,38.73,78.04,42.57,35.73,6.7866,Out-of-Domain
+79-09-4,Propanoic acid,CCC(O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,100.0,0.9693,100.0,82.56,92.72,91.8,85.48,1.6168,In-Domain
+1821694-26-1,"Bis[(2)-D-gluco-heptonato-O1,O2,O3,O6,O7] magnesium sulfate",O.O.O.O.[Ca].OCC(O)C(O)C(O)C(O)C(O)C(O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,100.0,1.0162,100.0,83.59,93.64,82.15,82.24,3.2036,In-Domain
+,Reaction products of sodium glucoheptonate with zinc sulfate and sodium hydroxide,O.[Na+].OCC(O)[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,100.0,,100.0,93.39,87.67,81.75,89.83,2.6005,In-Domain
+,Reaction products of sodium glucoheptonate with manganese sulfate and sodium hydroxide,O.[Na+].[Na+].[Na+].[O-]S([O-])(=O)=O.OCC(O)[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,100.0,,100.0,92.34,85.59,86.91,90.35,3.3439,In-Domain
+4075-81-4,calcium dipropanoate,[Ca+2].CCC([O-])=O.CCC([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,100.0,0.7289,100.0,88.87,87.18,79.34,88.91,1.8886,In-Domain
+327-62-8,Potassium propionate,[K+].CCC([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,100.0,0.9693,100.0,93.31,76.54,93.65,92.58,2.6961,In-Domain
+,Reaction products of sodium glucoheptonate with copper sulfate and ammonium hydroxide,[NH4+].[NH4+].O.O.O.[Na+].[O-]S([O-])(=O)=O.OCC(O)C(O)C(O)C(O)C1O[Cu]OC1=O.OCC(O)C(O)C(O)C(O)C1O[Cu](O)OC1=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,100.0,,100.0,89.88,82.94,93.53,95.13,4.917,In-Domain
+,Reaction products of sodium glucoheptonate with iron sulfate and ammonium hydroxide,[NH4+].[NH4+].[Na+].[O-]S([O-])(=O)=O.OCC(O)C1O[Fe]2OC(C(O2)C1O)C([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,100.0,,100.0,87.67,72.7,83.76,86.28,3.0822,In-Domain
+3349-08-4,nickel(2+) dipropanoate,[Ni+2].CCC([O-])=O.CCC([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,100.0,0.7289,100.0,89.4,88.14,85.3,88.9,1.9635,In-Domain
+557-28-8,zinc dipropionate,[Zn+2].CCC([O-])=O.CCC([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,100.0,0.7289,100.0,87.67,26.92,79.77,86.07,3.8053,In-Domain
+91-22-5,Quinoline,c1ccc2ncccc2c1,Tier1_Anaerobic_Sludge_Screening_CH4,1,97.0,0.1681,97.0,36.57,-12.49,-15.73,36.46,1.9435,In-Domain
+143-28-2,(9Z)-Octadec-9-en-1-ol,CCCCCCCC\C=C/CCCCCCCCO,Tier1_Anaerobic_Sludge_Screening_CH4,1,88.6,0.8143,88.6,46.86,72.64,61.07,45.98,1.7309,In-Domain
+,[No public or meaningful name is available],CCS(O)(=O)=O.CCS([O-])(=O)=O.CCS([O-])(=O)=O.CCS([O-])(=O)=O.CCS([O-])(=O)=O.C[N+](C)(C)CC(O)=O.CCCCCCCCCCCCCCCCCCO.CCCCCCCCCCCCCCCCCCCCO.CCCCCCCCCCCCCCCCCCCCCCO.CCCCCCCCCCCCCCCCCCOC(=O)C[N+](C)(C)C.CCCCCCCCCCCCCCCCCCCCOC(=O)C[N+](C)(C)C.CCCCCCCCCCCCCCCCCCCCCCOC(=O)C[N+](C)(C)C.CCCCCCCCCCCCCCCCCCOCCCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCCCCCOCCCCCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCCCCCCCOCCCCCCCCCCCCCCCCCCCCCC,Tier1_Anaerobic_Sludge_Screening_CH4,1,87.2,0.8758,87.2,38.52,45.56,29.11,25.46,15.29,Out-of-Domain
+,"Fatty alcohols C13-15 (odd numbered, linear and branched), reaction products with ethylene oxide, sodium chloroacetate and ethanolamine",O,Tier1_Anaerobic_Sludge_Screening_CH4,1,87.0,0.8361,87.0,57.5,32.21,61.1,60.97,2.0104,In-Domain
+91844-53-0,"Sorbitan, octanoate (2:3)",CCCCCCCC(=O)OC([C@@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O)O,Tier1_Anaerobic_Sludge_Screening_CH4,1,83.0,,83.0,75.88,83.72,84.19,76.25,2.8559,In-Domain
+,"Reaction products of fatty acids, C18 (unsaturated) alkyl with sulfur trioxide, potassium salts",[K+].[K+].[O-]S([O-])(=O)=O.CCCCCCCC\C=C/CCCCCCCC(O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,81.5,0.8424,81.5,61.45,77.69,83.23,64.25,4.2464,In-Domain
+,Oligomerisation products of ethylene oxide with reaction products of rape oil and ethanolamine,OCCOCC(COCCO)OCCO,Tier1_Anaerobic_Sludge_Screening_CH4,1,81.0,0.5047,81.0,48.39,69.22,54.5,44.38,2.0089,In-Domain
+4292-10-8,(carboxymethyl)(3-dodecanamidopropyl)dimethylazanium hydroxide,[OH-].CCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,80.0,-0.1753,80.0,45.57,69.14,49.17,46.75,4.2954,In-Domain
+,"1-Propanaminium, 3-amino-N-(carboxymethyl)-N,N-dimethyl-, N-(C12-14(even numbered) acyl) derivs., hydroxides, inner salts",[OH-].[OH-].OCC(O)=O.CCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)=O.CCCCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,80.0,,80.0,79.98,63.41,82.39,79.37,7.2289,Out-of-Domain
+1334422-09-1,"1-Propanaminium, 3-amino-N-(carboxymethyl)-N,N-dimethyl-, N-(C12-18(even numbered) acyl) derivs., hydroxides, inner salts",[OH-].[OH-].[OH-].[Na+].[Na+].[Cl-].OCC([O-])=O.CCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)=O.CCCCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)=O.CCCCCCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC([O-])=O.CCCCCCCCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC(O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,80.0,,80.0,62.16,64.46,67.83,67.84,9.7333,Out-of-Domain
+112-67-4,Hexadecanoyl chloride,CCCCCCCCCCCCCCCC(Cl)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,77.3,0.8026,77.3,40.52,66.94,64.02,48.59,5.9353,Out-of-Domain
+135800-37-2,"Fatty acids, C8-16(even numbered), 2-ethylhexyl esters",CCCCCCCC(=O)OCC(CC)CCCC.CCCCCCCCCC(=O)OCC(CC)CCCC.CCCCCCCCCCCC(=O)OCC(CC)CCCC.CCCCCCCCCCCCCC(=O)OCC(CC)CCCC.CCCCCCCCCCCCCCCC(=O)OCC(CC)CCCC,Tier1_Anaerobic_Sludge_Screening_CH4,1,77.0,0.4617,77.0,39.82,62.0,41.06,40.17,8.2274,Out-of-Domain
+50-78-2,2-acetoxybenzoic acid,CC(=O)Oc1ccccc1C(O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,75.0,0.8122,75.0,80.35,33.75,81.23,81.31,2.6408,In-Domain
+68427-32-7,"decyl dihydrogen phosphate, potassium salt",CCCCCCCCCCOP(=O)(O)[O-].[K+],Tier1_Anaerobic_Sludge_Screening_CH4,1,75.0,,75.0,32.02,52.21,22.9,23.91,3.6016,In-Domain
+,"sucrose and glycerol, reaction products with c12-18, c18unsatd. fatty acids",O.OCC(O)CO.OC(=O)CC(O)(CC(O)=O)C(O)=O.OC[C@H]1O[C@H](O[C@]2(CO)O[C@H](CO)[C@@H](O)[C@@H]2O)[C@H](O)[C@@H](O)[C@@H]1O,Tier1_Anaerobic_Sludge_Screening_CH4,1,75.0,1.1858,75.0,57.48,79.35,49.18,52.11,5.198,Out-of-Domain
+79-10-7,Acrylic acid,OC(=O)C=C,Tier1_Anaerobic_Sludge_Screening_CH4,1,75.0,0.8023,75.0,85.79,55.68,88.83,86.38,2.1609,In-Domain
+621-59-0,3-hydroxy-4-methoxybenzaldehyde,COc1ccc(C=O)cc1O,Tier1_Anaerobic_Sludge_Screening_CH4,1,72.0,0.8515,72.0,77.87,44.44,74.37,76.75,1.5268,In-Domain
+1117-86-8,"octane-1,2-diol",CCCCCCC(O)CO,Tier1_Anaerobic_Sludge_Screening_CH4,1,70.0,0.6944,70.0,82.57,62.15,86.05,81.89,0.8559,In-Domain
+1471314-81-4,"3-c12-18-(even numbered)-alkylamido-n,n-dimethylpropan-1-amino oxide",OO.OCC(O)CO.CCCCCCCC(=O)[NH+]([O-])CCCN(C)C.CCCCCCCCCC(=O)[NH+]([O-])CCCN(C)C.CCCCCCCCCCCC(=O)[NH+]([O-])CCCN(C)C.CCCCCCCCCCCCCC(=O)[NH+]([O-])CCCN(C)C.CCCCCCCCCCCCCCCC(=O)NCCC[N+](C)(C)[O-].CCCCCCCCCCCCCCCCCC(=O)[NH+]([O-])CCCN(C)C,Tier1_Anaerobic_Sludge_Screening_CH4,1,61.0,,61.0,77.86,70.77,71.52,74.13,9.4869,Out-of-Domain
+85631-54-5,"2-Propenoic acid, γ-ω-perfluoro-C8-14-alkyl esters",FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)CCOC(=O)C=C.FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)CCOC(=O)C=C.FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)CCOC(=O)C=C,Tier1_Anaerobic_Sludge_Screening_CH4,1,42.7,-2.8372,42.7,18.43,64.01,20.9,21.38,59.9095,Out-of-Domain
+99-76-3,methyl 4-hydroxybenzoate,COC(=O)c1ccc(O)cc1,Tier1_Anaerobic_Sludge_Screening_CH4,1,40.0,0.6274,40.0,45.94,42.78,48.26,53.86,1.7792,In-Domain
+1680-31-5,Dioctyl carbonate,CCCCCCCCOC(=O)OCCCCCCCC,Tier1_Anaerobic_Sludge_Screening_CH4,1,38.9,0.4053,38.9,25.69,79.63,30.72,28.6,2.4802,In-Domain
+37482-11-4,sodium 2-mercaptoethanolate,[Na+].[O-]CCS,Tier1_Anaerobic_Sludge_Screening_CH4,1,29.0,1.0208,29.0,83.98,69.77,79.4,82.66,1.3714,In-Domain
+120-47-8,ethyl 4-hydroxybenzoate,CCOC(=O)c1ccc(O)cc1,Tier1_Anaerobic_Sludge_Screening_CH4,1,28.3,0.6534,28.3,37.49,42.47,43.93,36.07,0.8305,In-Domain
+26787-78-0,"6-{[amino(4-hydroxyphenyl)acetyl]amino}-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid",CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccc(O)cc3)C(=O)N2[C@H]1C(O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,21.3,-0.5785,21.3,28.45,16.57,27.08,23.74,5.5681,Out-of-Domain
+94-13-3,propyl 4-hydroxybenzoate,CCCOC(=O)c1ccc(O)cc1,Tier1_Anaerobic_Sludge_Screening_CH4,1,18.0,0.6793,18.0,33.69,12.57,30.51,31.76,0.9001,In-Domain
+35285-69-9,propyl 4-hydroxybenzoate,[Na+].CCCOC(=O)c1ccc([O-])cc1,Tier1_Anaerobic_Sludge_Screening_CH4,1,18.0,0.6793,18.0,44.44,1.59,40.12,49.69,1.5566,In-Domain
+34590-94-8,(2-methoxymethylethoxy)propanol,CC(COC(C)COC)O,Tier1_Anaerobic_Sludge_Screening_CH4,1,10.0,,10.0,45.2,61.39,33.35,31.69,2.4933,In-Domain
+3380-34-5,"5-chloro-2-(2,4-dichlorophenoxy)phenol",Oc1cc(Cl)ccc1Oc1ccc(Cl)cc1Cl,Tier1_Anaerobic_Sludge_Screening_CH4,1,10.0,-0.6846,10.0,-11.12,4.16,-15.84,-11.84,5.2841,Out-of-Domain
+90341-71-2,"Cuprate(4-), [2-[[[[2-hydroxy-3-sulfo-5-[[2-(sulfooxy)ethyl]sulfonyl]phenyl]azo]phenylmethyl]azo]-4-sulfobenzoato(6-)]-, sodium",[Na+].[Na+].[Na+].[Na+].[O-]S(=O)(=O)OCCS(=O)(=O)c1cc(c2O[Cu-]3OC(=O)c4ccc(cc4N=NC(=NN3c2c1)c1ccccc1)S([O-])(=O)=O)S([O-])(=O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,10.0,-0.6017,10.0,17.99,16.23,13.85,17.62,4.7928,In-Domain
+1471316-27-4,"Alcohols, C16-18 (even numbered) and C18 unsaturated, propoxylated, < 2.5 PO",CCCCCCCCCCCCCCCCO.CCCCCCCCCCCCCCCCCCO,Tier1_Anaerobic_Sludge_Screening_CH4,1,9.0,1.0134,9.0,84.01,68.46,85.18,83.45,1.1847,In-Domain
+15827-60-8,[(bis{2-[bis(phosphonomethyl)amino]ethyl}amino)methyl]phosphonic acid,OP(O)(=O)CN(CCN(CP(O)(O)=O)CP(O)(O)=O)CCN(CP(O)(O)=O)CP(O)(O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,7.0,-2.1546,7.0,25.61,37.81,26.06,21.82,15.7268,Out-of-Domain
+,octadecasodium ({[2-({2-[bis(hydrogen phosphonatomethyl)amino]ethyl}(hydrogen phosphonatomethyl)amino)ethyl](hydrogen phosphonatomethyl)amino}methyl)phosphonate {[(hydrogen phosphonatomethyl)({2-[(hydrogen phosphonatomethyl)({2-[(hydrogen phosphonatomethyl)(phosphonatomethyl)amino]ethyl})amino]ethyl})amino]methyl}phosphonate {[(hydrogen phosphonatomethyl)({2-[(hydrogen phosphonatomethyl)({2-[(hydrogen phosphonatomethyl)(phosphonomethyl)amino]ethyl})amino]ethyl})amino]methyl}phosphonate,[Na+].[Na+].[Na+].[Na+].[Cl-].OP([O-])([O-])=O.OCP(O)([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,7.0,0.9948,7.0,27.95,38.39,31.82,26.49,4.0279,In-Domain
+,[No public or meaningful name is available],[Na+].[Na+].[Na+].[Na+].[Cl-].OP([O-])=O.OP(O)([O-])=O.OCP(O)([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,7.0,0.9948,7.0,34.55,22.57,32.88,31.16,5.6108,Out-of-Domain
+61792-09-4,pentasodium pentahydrogen [(bis{2-[bis(phosphonatomethyl)amino]ethyl}amino)methyl]phosphonate,[Na+].[Na+].[Na+].[Na+].[Na+].[O-]P([O-])(=O)CN(CCN(CP([O-])([O-])=O)CP([O-])([O-])=O)CCN(CP([O-])([O-])=O)CP([O-])([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,7.0,-2.1546,7.0,18.19,39.15,26.95,13.9,15.9497,Out-of-Domain
+27503-81-7,2-phenyl-1H-benzimidazole-5-sulphonic acid,OS(=O)(=O)c1ccc2[nH]c(nc2c1)-c1ccccc1,Tier1_Anaerobic_Sludge_Screening_CH4,1,2.0,-0.086,2.0,8.1,1.49,4.2,3.37,4.3131,In-Domain
+68649-11-6,8-ethyl-9-methylheptadecane; 8-methyl-7-propylhexadecane,CCCCCCCCC(C)C(CC)CCCCCCC,Tier1_Anaerobic_Sludge_Screening_CH4,1,0.0,,0.0,34.83,18.53,46.59,38.91,4.6362,In-Domain
+59-50-7,4-Chloro-3-methylphenol,Cc1cc(O)ccc1Cl,Tier1_Anaerobic_Sludge_Screening_CH4,1,0.0,-0.1435,0.0,-13.81,1.78,-9.8,-10.76,1.0003,In-Domain
+99-57-0,2-Amino-4-nitrophenol,Nc1cc(ccc1O)[N+]([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,0.0,0.1386,0.0,-2.15,-4.0,-10.01,-0.97,4.5029,In-Domain
+139734-65-9,[No public or meaningful name is available],[Cl-].CC(O)=O.CCCCCCCCCCCCN.CCCCCCCCCCCCCCN.CCCCCCCCCCCCNCCCN.CCCCCCCCCCCCCCNCCCN.CCCCCCCCCCCCCCCCNCCCN.CCCCCCCCCCCCNCCCNCC(O)=O.CCCCCCCCCCCCN(CCCN)CCCN.CCCCCCCCCCCCN(CCCN)CC(O)=O.CCCCCCCCCCCCCCNCCCNCC(O)=O.CCCCCCCCCCCCCCN(CCCN)CC(O)=O.CCCCCCCCCCCCNCCCN(CC(O)=O)CC(O)=O.CCCCCCCCCCCCN(CCCN)CCCNCC(O)=O.CCCCCCCCCCCCN(CCCNCC(O)=O)CC(O)=O.CCCCCCCCCCCCCCNCCCN(CC(O)=O)CC(O)=O.CCCCCCCCCCCCCCN(CCCNCC(O)=O)CC(O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,0.0,,0.0,71.89,70.14,68.19,71.98,20.0551,Out-of-Domain
+831-52-7,"sodium 2-amino-4,6-dinitrophenoxide",[Na+].Nc1cc(cc(c1[O-])[N+]([O-])=O)[N+]([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,0.0,0.02,0.0,-4.67,-9.96,-8.83,2.75,4.2124,In-Domain
+180898-37-7,"1H-Benzimidazole-5,7-disulfonic acid, 2,2'-(1,4-phenylene)bis-, sodium salt (1:2)",[Na+].[Na+].OS(=O)(=O)c1cc(c2nc([nH]c2c1)-c1ccc(cc1)-c1nc2c(cc(cc2[nH]1)S(O)(=O)=O)S([O-])(=O)=O)S([O-])(=O)=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,0.0,-1.4347,0.0,13.08,8.94,10.34,11.34,4.95,Out-of-Domain
+66669-53-2,"tetrasodium hydrogen 2-phosphonatobutane-1,2,4-tricarboxylate",[Na+].[Na+].[Na+].[Na+].OC(=O)CC(CCC([O-])=O)(C([O-])=O)P([O-])([O-])=O,Tier1_Anaerobic_Sludge_Screening_CH4,1,0.0,1.1401,0.0,76.0,60.39,79.33,71.75,4.6154,In-Domain
+97-99-4,tetrahydrofuran-2-ylmethanol,OCC1CCCO1,Tier1_Anaerobic_Sludge_Screening_CH4,1,-9.0,0.417,-9.0,52.75,56.54,40.72,59.64,3.6431,In-Domain
+110-00-9,Furan,c1ccoc1,Tier1_Anaerobic_Sludge_Screening_CH4,1,-22.0,0.4544,-22.0,7.61,27.09,12.48,17.61,1.8517,In-Domain
+88-99-3,Phthalic acid,OC(=O)c1ccccc1C([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,135.0,0.9855,100.0,79.57,58.72,70.47,77.38,1.3314,In-Domain
+107-21-1,Ethylene glycol,OCCO,Tier1_Literature_Sludge_SerumBottle,1,106.0,1.1536,100.0,88.92,83.16,88.12,88.91,0.9214,In-Domain
+535-80-8,3-Chlorobenzoic acid,OC(=O)c1cccc(Cl)c1,Tier1_Literature_Sludge_SerumBottle,1,105.0,0.3177,100.0,22.95,36.4,26.1,24.83,0.3921,In-Domain
+64-19-7,Acetic acid,CC(O)=O,Tier1_Literature_Sludge_SerumBottle,1,99.0,0.9433,99.0,90.99,88.18,91.4,90.98,0.8435,In-Domain
+50-99-7,D-Glucose,OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C=O,Tier1_Literature_Sludge_SerumBottle,1,99.0,0.9851,99.0,82.38,76.7,82.19,79.71,2.2709,In-Domain
+112-27-6,Triethylene glycol,OCCOCCOCCO,Tier1_Literature_Sludge_SerumBottle,1,98.0,0.743,98.0,74.11,68.35,71.69,76.34,1.5983,In-Domain
+127-09-3,Sodium acetate,[Na+].CC([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,98.0,0.9433,98.0,87.8,84.43,90.68,88.62,2.9456,In-Domain
+56-81-5,Glycerol,OCC(O)CO,Tier1_Literature_Sludge_SerumBottle,1,98.0,1.1205,98.0,91.38,74.65,91.4,91.77,0.8449,In-Domain
+111-46-6,Diethylene glycol,OCCOCCO,Tier1_Literature_Sludge_SerumBottle,1,97.0,0.9483,97.0,84.19,57.21,82.63,84.69,1.9212,In-Domain
+110-15-6,Succinic acid,OC(=O)CCC([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,96.0,1.2616,96.0,85.53,71.92,83.92,85.75,0.4967,In-Domain
+107-92-6,Butyric acid,CCCC(O)=O,Tier1_Literature_Sludge_SerumBottle,1,95.0,0.9953,95.0,85.75,87.51,89.85,86.9,1.0012,In-Domain
+109-52-4,n-Valeric acid,CCCCC(O)=O,Tier1_Literature_Sludge_SerumBottle,1,95.0,0.7035,95.0,85.9,69.3,85.0,86.01,0.7935,In-Domain
+71-23-8,1-Propanol,CCCO,Tier1_Literature_Sludge_SerumBottle,1,95.0,0.9413,95.0,83.26,79.62,86.39,84.56,0.763,In-Domain
+71-36-3,1-Butanol,CCCCO,Tier1_Literature_Sludge_SerumBottle,1,95.0,0.6495,95.0,79.05,75.64,79.21,77.96,0.6019,In-Domain
+99-96-7,4-Hydroxybenzoic acid,OC(=O)c1ccc(O)cc1,Tier1_Literature_Sludge_SerumBottle,1,95.0,0.8007,95.0,78.24,64.46,80.38,79.23,0.7088,In-Domain
+822-16-2,Sodium stearate,[Na+].CCCCCCCCCCCCCCCCCC([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,94.0,1.0414,94.0,77.25,73.06,77.61,77.3,1.7799,In-Domain
+141-78-6,Ethyl acetate,CCOC(C)=O,Tier1_Literature_Sludge_SerumBottle,1,92.0,0.8748,92.0,84.86,84.64,86.38,85.86,1.8855,In-Domain
+124-04-9,Adipic acid,OC(=O)CCCCC([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,92.0,1.3136,92.0,85.46,76.92,84.36,85.55,0.4676,In-Domain
+120-80-9,Catechol,Oc1ccccc1[O-],Tier1_Literature_Sludge_SerumBottle,1,90.0,0.6158,90.0,79.46,70.25,81.24,78.61,0.6769,In-Domain
+100-52-7,Benzaldehyde,O=Cc1ccccc1,Tier1_Literature_Sludge_SerumBottle,1,90.0,0.6997,90.0,52.74,47.34,37.94,52.61,2.0387,In-Domain
+108-46-3,Resorcinol,Oc1cccc([O-])c1,Tier1_Literature_Sludge_SerumBottle,1,90.0,0.6158,90.0,79.27,74.54,81.1,78.04,0.6036,In-Domain
+1135-24-6,Ferulic acid,COc1cc(C=CC(O)=O)ccc1O,Tier1_Literature_Sludge_SerumBottle,1,90.0,0.7687,90.0,73.73,58.5,66.03,70.4,1.4891,In-Domain
+134-96-3,Syringaldehyde,COc1cc(C=O)cc(OC)c1O,Tier1_Literature_Sludge_SerumBottle,1,90.0,1.0454,90.0,72.71,61.65,71.8,70.12,1.6484,In-Domain
+78-93-3,Methyl ethyl ketone,CCC(C)=O,Tier1_Literature_Sludge_SerumBottle,1,90.0,0.311,90.0,53.08,51.28,62.9,57.2,1.1414,In-Domain
+123-99-9,Azelaic acid,OC(=O)CCCCCCCC([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,90.0,1.3916,90.0,83.92,66.16,81.16,82.5,0.9829,In-Domain
+150-13-0,4-Aminobenzoic acid,Nc1ccc(cc1)C(O)=O,Tier1_Literature_Sludge_SerumBottle,1,89.0,0.4421,89.0,41.13,31.03,37.85,41.71,0.6174,In-Domain
+95-55-6,2-Aminophenol,Nc1ccccc1O,Tier1_Literature_Sludge_SerumBottle,1,88.0,0.2573,88.0,10.88,48.73,24.62,11.31,1.8452,In-Domain
+154-23-4,Protocatechuic acid,O[C@H]1Cc2c(O)cc(O)cc2O[C@@H]1c1ccc(O)c(O)c1,Tier1_Literature_Sludge_SerumBottle,1,88.0,0.9434,88.0,67.45,20.4,63.82,64.86,3.1396,In-Domain
+100-09-4,4-Methoxybenzoic acid,COc1ccc(cc1)C(O)=O,Tier1_Literature_Sludge_SerumBottle,1,85.0,0.8184,85.0,77.52,42.82,78.74,75.66,1.2442,In-Domain
+109-86-4,Ethylene glycol monomethyl ether,COCCO,Tier1_Literature_Sludge_SerumBottle,1,85.0,0.684,85.0,64.66,62.57,55.8,63.11,2.0594,In-Domain
+111-70-6,Heptanol,CCCCCCCO,Tier1_Literature_Sludge_SerumBottle,1,85.0,0.7275,85.0,82.2,76.03,86.09,84.08,0.5412,In-Domain
+1120-04-3,Sodium C18 sulfate,[Na+].CCCCCCCCCCCCCCCCCCOS([O-])(=O)=O,Tier1_Literature_Sludge_SerumBottle,1,85.0,0.8806,85.0,42.92,50.45,55.9,41.34,2.9603,In-Domain
+123-51-3,3-Methyl-1-butanol,CC(C)CCO,Tier1_Literature_Sludge_SerumBottle,1,85.0,0.6958,85.0,73.22,57.67,71.81,73.13,2.3748,In-Domain
+513-86-0,3-Hydroxybutanone (Acetoin),CC(O)C(C)=O,Tier1_Literature_Sludge_SerumBottle,1,85.0,0.252,85.0,33.78,83.52,31.94,33.92,1.0466,In-Domain
+75-07-0,Acetaldehyde,CC=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.8791,85.0,80.46,75.42,78.66,79.67,0.9677,In-Domain
+108-24-7,Acetic anhydride,CC(=O)OC(C)=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.6769,85.0,51.99,81.84,39.08,52.77,4.7798,In-Domain
+,Adipic acid,OC(=O)CCCCC(O)=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,1.3136,85.0,88.28,83.18,89.32,88.75,0.444,In-Domain
+78-96-6,1-Amino-2-propanol,CC(O)CN,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.9267,85.0,63.97,66.82,64.91,65.37,1.2954,In-Domain
+56-12-2,4-Aminobutyric acid,NCCCC(O)=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,1.2781,85.0,88.46,81.2,88.57,87.88,1.1212,In-Domain
+35296-72-1,Butanol,CCC(C)O,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.6698,85.0,69.2,74.51,73.7,71.99,0.5477,In-Domain
+123-73-9,Crotonaldehyde,CC=CC=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.732,85.0,82.88,70.53,79.06,81.78,1.3197,In-Domain
+3724-65-0,Crotonic acid,CC=CC(O)=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.7962,85.0,83.52,79.68,80.68,83.27,1.1616,In-Domain
+140-88-5,Ethyl acrylate,CCOC(=O)C=C,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.7338,85.0,74.12,71.47,66.58,69.61,1.7358,In-Domain
+64-18-6,Formic acid,OC=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,1.0229,85.0,79.77,71.69,85.65,80.3,1.3464,In-Domain
+110-17-8,Fumaric acid,OC(=O)\C=C\C(O)=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,1.0626,85.0,84.06,73.37,84.11,84.2,1.0994,In-Domain
+110-94-1,Glutaric acid,OC(=O)CCCC(O)=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,1.2876,85.0,85.47,84.53,87.85,87.25,0.3696,In-Domain
+142-62-1,Hexanoic acid,CCCCCC(O)=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.7295,85.0,88.15,77.69,89.29,88.5,0.9803,In-Domain
+67-63-0,Isopropanol,CC(C)O,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.6439,85.0,78.61,88.53,81.2,76.7,0.6304,In-Domain
+598-82-3,Lactic acid,CC(O)C(O)=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.9102,85.0,88.57,89.79,88.47,89.16,0.9647,In-Domain
+110-16-7,Maleic acid,OC(=O)\C=C/C(O)=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,1.0626,85.0,89.08,78.55,85.91,89.86,1.1223,In-Domain
+79-20-9,Methyl acetate,COC(C)=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.8488,85.0,83.65,91.34,87.91,84.56,1.7725,In-Domain
+96-33-3,Methyl acrylate,COC(=O)C=C,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.7078,85.0,80.03,66.0,78.32,79.0,1.8554,In-Domain
+107-31-3,Methyl formate,COC=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.9284,85.0,83.83,86.51,84.83,84.25,2.0961,In-Domain
+98-95-3,Nitrobenzene,[O-][N+](=O)c1ccccc1,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.3631,85.0,-6.36,37.72,9.63,-2.48,2.0668,In-Domain
+115-77-5,Pentaerythritol,OCC(CO)(CO)CO,Tier1_Speece1983_Industrial_Amenable,1,85.0,1.1369,85.0,90.32,45.51,86.79,89.56,1.0356,In-Domain
+,Phthalic acid,OC(=O)c1ccccc1C(O)=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.9855,85.0,54.9,58.39,70.47,55.05,1.3164,In-Domain
+123-38-6,Propanal,CCC=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.9051,85.0,76.3,82.2,82.53,80.69,0.9133,In-Domain
+99-50-3,Protocatechuic acid,OC(=O)c1ccc(O)c(O)c1,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.9768,85.0,81.11,37.05,77.49,80.49,1.1701,In-Domain
+110-44-1,Sorbic acid,C\C=C\C=C\C(O)=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.3315,85.0,33.39,75.53,35.85,31.86,1.6593,In-Domain
+110-15-6,Succinic acid,OC(=O)CCC(O)=O,Tier1_Speece1983_Industrial_Amenable,1,85.0,1.2616,85.0,88.51,84.74,91.05,89.05,0.4662,In-Domain
+,tert-Butanol,CC(C)(C)O,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.2631,85.0,32.91,64.1,30.59,32.91,1.5459,In-Domain
+108-05-4,Vinyl acetate,CC(=O)OC=C,Tier1_Speece1983_Industrial_Amenable,1,85.0,0.7078,85.0,82.75,82.88,81.37,83.27,2.6738,In-Domain
+108-80-5,Cyanuric acid,Oc1nc(O)nc([O-])n1,Tier1_Literature_Sludge_SerumBottle,1,80.0,1.0,80.0,54.47,4.92,40.92,44.32,3.3323,In-Domain
+150-19-6,3-Methoxyphenol,COc1cccc(O)c1,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.6335,80.0,65.48,58.96,64.66,64.45,0.9697,In-Domain
+408-35-5,1    0.8026419517         Sodium palmitate,[Na+].CCCCCCCCCCCCCCCC([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.9894,80.0,81.64,76.57,81.64,81.2,1.5045,In-Domain
+513-85-9,"1   0.61076698421         2,3-Butanediol",CC(O)C(C)O,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.6108,80.0,75.36,67.65,71.75,75.71,1.0097,In-Domain
+530-57-4,1   1.18840696899         Syringic acid,COc1cc(cc(OC)c1O)C(O)=O,Tier1_Literature_Sludge_SerumBottle,1,80.0,1.1884,80.0,80.01,41.93,76.88,76.94,1.2075,In-Domain
+56-86-0,1   1.27304805433          Glutamic acid,NC(CCC(O)=O)C(O)=O,Tier1_Literature_Sludge_SerumBottle,1,80.0,1.273,80.0,60.05,74.11,82.49,59.86,1.5731,In-Domain
+590-90-9,1   0.54936439639         3-Hydroxy-2-butanone,CC(=O)CCO,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.5494,80.0,79.03,79.61,75.93,77.67,1.5825,In-Domain
+621-82-9,1   0.61684154785         Cinnamic acid,OC(=O)C=Cc1ccccc1,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.6168,80.0,44.85,41.74,48.98,47.99,1.4952,In-Domain
+62-73-7,1   1.10110942045          DDVP,COP(=O)(OC)OC=C(Cl)Cl,Tier1_Literature_Sludge_SerumBottle,1,80.0,1.1011,80.0,41.8,53.79,47.1,41.75,4.6799,In-Domain
+629-25-4,1   0.69868262321         Laurate,[Na+].CCCCCCCCCCCC([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.8855,80.0,85.17,74.18,85.5,85.84,1.3122,In-Domain
+63-91-2,1   0.65353957776          Phenylalanine,NC(Cc1ccccc1)C(O)=O,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.6535,80.0,66.08,15.2,56.96,62.17,1.8068,In-Domain
+71-41-0,1   0.67550741594          1-Pentanol,CCCCCO,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.6755,80.0,85.27,66.06,83.65,84.85,0.4732,In-Domain
+79-31-2,1   0.69786211658          Isobutyric acid,CC(C)C(O)=O,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.6979,80.0,84.44,87.98,83.72,84.58,2.6915,In-Domain
+821-41-0,1   0.85223756703         5-Hexene-1-ol,OCCCCC=C,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.8522,80.0,63.87,66.12,64.67,62.93,1.0393,In-Domain
+99-06-9,1   0.80065974949          m-Hydroxybenzoic acid,OC(=O)c1cccc(O)c1,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.8007,80.0,86.14,73.76,90.04,86.81,0.708,In-Domain
+118-92-3,1   0.44212010715         o-Aminobenzoic acid,Nc1ccccc1C(O)=O,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.4421,80.0,59.9,61.62,66.11,54.32,1.1231,In-Domain
+100-51-6,1   0.70254368365         Benzyl alcohol,OCc1ccccc1,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.7025,80.0,70.26,39.58,63.57,71.8,1.1855,In-Domain
+106-24-1,1   0.66105449413         Geraniol,CC(C)=CCCC(C)=CCO,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.6611,80.0,42.4,63.47,41.21,39.75,1.5394,In-Domain
+108-73-6,"1   0.79196130298         1,3,5-Trihydroxybenzene",Oc1cc(O)cc(O)c1,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.792,80.0,67.42,28.0,77.41,72.4,0.9243,In-Domain
+121-34-6,1   0.99453335924         3-Methoxy-4-hydoxybenzoic,COc1cc(ccc1O)C(O)=O,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.9945,80.0,80.75,64.69,79.85,78.89,0.9087,In-Domain
+122-32-7,1   0.69630291303         Glycerol trioleate,CCCCCCCC\C=C/CCCCCCCC(=O)OCC(COC(=O)CCCCCCC\C=C/CCCCCCCC)OC(=O)CCCCCCC\C=C/CCCCCCCC,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.6963,80.0,51.0,46.41,52.77,57.51,7.2524,Out-of-Domain
+123-94-4,1   1.17813064913         Glycerol monostearate,CCCCCCCCCCCCCCCCCC(=O)OCC(O)CO,Tier1_Literature_Sludge_SerumBottle,1,80.0,1.1781,80.0,81.48,73.22,77.89,79.59,2.7666,In-Domain
+137-26-8,1   0.51779564471         Thiram,CN(C)C(=S)SSC(=S)N(C)C,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.5178,80.0,16.3,8.25,28.76,26.23,13.9902,Out-of-Domain
+143-28-2,1   0.81434895407         Oleyl alcohol,CCCCCCCCC=CCCCCCCCCO,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.8143,80.0,62.13,72.64,61.07,59.43,0.9854,In-Domain
+151-41-7,1   0.72467245533         C12 Alkylsulfate,CCCCCCCCCCCCOS(O)(=O)=O,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.7247,80.0,51.21,54.01,60.49,50.36,3.0947,In-Domain
+503-74-2,1   0.72385194871         iso-Valeric acid,CC(C)CC(O)=O,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.7239,80.0,85.59,68.47,83.59,86.5,2.1775,In-Domain
+57-11-4,1   1.04139402074          Stearic acid,CCCCCCCCCCCCCCCCCC(O)=O,Tier1_Literature_Sludge_SerumBottle,1,80.0,1.0414,80.0,82.44,77.38,85.8,83.33,1.3605,In-Domain
+66-25-1,1   0.66531018736          n-Hexylaldehyde,CCCCCC=O,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.6653,80.0,77.62,57.88,84.05,78.34,0.8914,In-Domain
+74-93-1,1    0.7565121931          Methyl mercaptan,CS,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.7565,80.0,43.21,57.99,45.15,44.43,1.5117,In-Domain
+99-50-3,"1   0.97681233362          3,4-Dihydroxybenzoic acid",Oc1cc(ccc1[O-])C([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,80.0,0.9768,80.0,84.6,45.44,83.71,84.31,1.4518,In-Domain
+75-27-4,Bromodichloromethane,ClC(Cl)Br,Tier1_Literature_Sludge_SerumBottle,1,75.0,1.0,75.0,31.01,57.36,49.92,42.09,4.0368,In-Domain
+104-76-7,2-Ethylhexanol,CCCCC(CC)CO,Tier1_Literature_Sludge_SerumBottle,1,75.0,0.4561,75.0,35.37,62.68,40.98,34.6,2.7977,In-Domain
+90-05-1,o-Methoxyphenol (Guaiacol),COc1ccccc1O,Tier1_Literature_Sludge_SerumBottle,1,75.0,0.6335,75.0,55.89,51.43,56.13,51.25,1.0083,In-Domain
+623-05-2,p-Hydroxybenzyl alcohol,OCc1ccc(O)cc1,Tier1_Literature_Sludge_SerumBottle,1,60.0,0.6605,60.0,44.34,26.24,44.58,45.96,0.8022,In-Domain
+110-86-1,Pyridine,c1ccncc1,Tier1_Literature_Sludge_SerumBottle,1,58.0,1.0,58.0,47.73,7.88,51.87,52.55,1.5229,In-Domain
+123-96-6,2-Octanol,CCCCCCC(C)O,Tier1_Literature_Sludge_SerumBottle,1,58.0,0.4561,58.0,47.78,69.72,50.33,50.83,0.8111,In-Domain
+539-03-7,4-Chloroacetanilide,CC(=O)Nc1ccc(Cl)cc1,Tier1_Literature_Sludge_SerumBottle,1,50.0,-0.5954,50.0,-2.26,-4.2,-0.09,-0.25,2.7004,In-Domain
+74-11-3,4-Chlorobenzoic acid,OC(=O)c1ccc(Cl)cc1,Tier1_Literature_Sludge_SerumBottle,1,44.0,0.3177,44.0,58.3,72.23,59.6,58.74,1.0454,In-Domain
+131-11-3,Dimethyl phthalate,COC(=O)c1ccccc1C(=O)OC,Tier1_Literature_Sludge_SerumBottle,1,41.0,0.6389,41.0,53.97,48.14,55.54,61.18,2.0837,In-Domain
+84-66-2,Diethylphthalate,CCOC(=O)c1ccccc1C(=O)OCC,Tier1_Literature_Sludge_SerumBottle,1,30.0,0.6909,30.0,55.01,39.15,59.81,64.56,2.0672,In-Domain
+123-30-8,4-Aminophenol,Nc1ccc(O)cc1,Tier1_Literature_Sludge_SerumBottle,1,20.0,0.2573,20.0,13.49,42.88,25.71,12.22,1.559,In-Domain
+90-01-7,2-Hydroxybenzyl alcohol,OCc1ccccc1O,Tier1_Literature_Sludge_SerumBottle,1,20.0,0.6605,20.0,66.06,50.2,64.35,65.91,0.7749,In-Domain
+118-91-2,2-Chlorobenzoic acid,OC(=O)c1ccccc1Cl,Tier1_Literature_Sludge_SerumBottle,1,16.0,0.3177,16.0,44.83,74.01,56.08,44.59,1.125,In-Domain
+100-61-8,N-Methylaniline,CNc1ccccc1,Tier1_Literature_Sludge_SerumBottle,1,14.0,0.2197,14.0,19.72,41.91,38.76,21.7,1.4562,In-Domain
+99-05-8,3-Aminobenzoic acid,Nc1cccc(c1)C(O)=O,Tier1_Literature_Sludge_SerumBottle,1,12.0,0.4421,12.0,64.55,57.5,67.7,61.79,1.0723,In-Domain
+83-40-9,3-Methylsalicylic acid,Cc1cccc(C(O)=O)c1O,Tier1_Literature_Sludge_SerumBottle,1,10.0,0.5243,10.0,48.59,21.06,56.66,46.16,0.7873,In-Domain
+139-13-9,Nitrilotriacetic acid,OC(=O)CN(CC(O)=O)CC([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,10.0,0.3995,10.0,54.16,68.27,40.98,51.26,3.1473,In-Domain
+544-76-3,n-Hexadecane,CCCCCCCCCCCCCCCC,Tier1_Literature_Sludge_SerumBottle,1,8.0,0.4053,8.0,11.22,20.26,15.54,13.08,1.7158,In-Domain
+100-66-3,Anisole,COc1ccccc1,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.6756,5.0,55.69,72.19,69.71,47.95,2.238,In-Domain
+108-88-3,Toluene,Cc1ccccc1,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.2053,5.0,-1.71,23.43,13.62,-1.0,3.0143,In-Domain
+118-90-1,o-Methylbenzoic acid,Cc1ccccc1C(O)=O,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.3482,5.0,18.67,30.87,16.73,16.42,0.7146,In-Domain
+2138-22-9,0   0.30896655852        4-Chlorocatechol,Oc1ccc(Cl)cc1O,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.309,5.0,3.52,19.4,8.49,4.37,1.1939,In-Domain
+2550-26-7,0   0.00985437128        Benzyl acetone,CC(=O)CCc1ccccc1,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.0099,5.0,12.69,17.92,18.57,14.3,2.1352,In-Domain
+452-86-8,0    0.3394668697         4-Methylcatechol,Cc1ccc(O)c(O)c1,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.3395,5.0,12.38,18.64,13.47,11.99,0.4095,In-Domain
+504-15-4,0    0.3394668697         Orcinol,Cc1cc(O)cc(O)c1,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.3395,5.0,9.43,19.54,9.58,9.39,0.4244,In-Domain
+507-20-0,0    0.2484793847         Trimethylchloromethane,CC(C)(C)Cl,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.2485,5.0,6.67,26.89,19.11,13.79,3.887,In-Domain
+534-52-1,"0   -0.0739565733         4,6-Dinitro-o-cresol",Cc1cc(cc(c1O)[N+]([O-])=O)[N+]([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,5.0,-0.074,5.0,-15.02,10.15,-10.62,-13.71,1.6442,In-Domain
+589-38-8,0   0.36301826026         3-Hexanone,CCCC(=O)CC,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.363,5.0,30.61,43.34,42.9,29.25,1.6944,In-Domain
+591-78-6,0   0.04529036916         2-Hexanone,CCCCC(C)=O,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.0453,5.0,30.01,47.11,33.62,31.46,1.031,In-Domain
+592-43-8,0   0.26414516823         2-Hexene,CCCC=CC,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.2641,5.0,9.98,34.69,14.29,12.04,1.2865,In-Domain
+608-25-3,0    0.3394668697         2-Methylresorcinol,Cc1c(O)cccc1O,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.3395,5.0,12.94,45.19,14.96,11.96,0.5066,In-Domain
+635-21-2,0   0.13527794681         2-Amino-5-chlorobenzoic ac,Nc1ccc(Cl)cc1C(O)=O,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.1353,5.0,12.58,11.52,2.62,6.81,2.2396,In-Domain
+67701-05-7,0   0.21410039703       Coconut fatty acid (C8-18),OC(=O)C=CC=CC=CC=CC=C,Tier1_Literature_Sludge_SerumBottle,1,5.0,,5.0,54.47,46.09,48.35,48.21,3.1059,In-Domain
+68-12-2,0   0.10906452019          Dimethylformamide,CN(C)C=O,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.1091,5.0,35.25,83.87,48.81,31.15,2.2606,In-Domain
+79-06-1,0   0.04763896297          Acrylamide,NC(=O)C=C,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.0476,5.0,24.34,53.72,18.54,21.82,2.6419,In-Domain
+85-68-7,0   0.21243296352          Butylbenzylphthalate,CCCCOC(=O)c1ccccc1C(=O)OCc1ccccc1,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.2124,5.0,26.87,46.55,38.6,24.38,3.025,In-Domain
+95-88-5,0   0.30896655852          4-Chlororesorcinol,Oc1ccc(Cl)c(O)c1,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.309,5.0,-1.41,10.52,6.36,6.8,2.8205,In-Domain
+99-92-3,0   -0.2949167993          4-Aminoacetophenone,CC(=O)c1ccc(N)cc1,Tier1_Literature_Sludge_SerumBottle,1,5.0,-0.2949,5.0,11.04,34.51,9.77,8.72,2.4065,In-Domain
+99-94-5,0   0.34816531621          p-Methylbenzoic acid,Cc1ccc(cc1)C(O)=O,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.3482,5.0,16.85,15.47,13.97,17.61,0.3229,In-Domain
+110-54-3,0   0.46317144769         Hexane,CCCCCC,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.4632,5.0,16.33,18.48,26.9,18.45,1.2984,In-Domain
+4113-12-6,0   0.56392830762        Di-hexadecyl ether,CCCCCCCCCCCCCCCCOCCCCCCCCCCCCCCCC,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.5639,5.0,34.27,38.71,43.73,41.78,4.8873,In-Domain
+623-37-0,0   0.72182299362         3-Hexanol,CCCC(O)CC,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.7218,5.0,69.71,27.04,68.04,70.16,0.8055,In-Domain
+103-90-2,0   -0.1123614006         4-Hydroxyacetanilide,CC(=O)Nc1ccc(O)cc1,Tier1_Literature_Sludge_SerumBottle,1,5.0,-0.1124,5.0,13.74,26.34,11.0,10.0,2.8579,In-Domain
+117-84-0,0   0.36732552067         Dioctylphthalate,CCCCCCCCOC(=O)c1ccccc1C(=O)OCCCCCCCC,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.3673,5.0,36.15,35.73,43.25,36.55,3.8711,In-Domain
+26444-49-5,0   0.26781662492       Cresyldiphenylphosphate,Cc1ccc(OP(=O)(Oc2ccccc2)Oc2ccccc2)cc1,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.0917,5.0,1.49,20.62,11.42,1.13,3.8892,In-Domain
+3964-58-7,0   0.49381758916        3-Chloro-4-hydroxybenzoic,OC(=O)c1ccc(O)c(Cl)c1,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.4938,5.0,28.3,5.55,10.27,31.08,5.0659,Out-of-Domain
+51-44-5,"0    0.0108228447          3,4-Dichlorobenzoic acid",OC(=O)c1ccc(Cl)c(Cl)c1,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.0108,5.0,-14.07,17.43,-15.44,-13.58,1.8235,In-Domain
+620-71-3,0   -0.0443420825         Propionanilide,CCC(=O)Nc1ccccc1,Tier1_Literature_Sludge_SerumBottle,1,5.0,-0.0443,5.0,17.22,21.36,9.13,14.49,2.6867,In-Domain
+626-93-7,0   0.32738940219         2-Hexanol,CCCCC(C)O,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.4041,5.0,48.73,32.79,47.64,50.09,0.7506,In-Domain
+629-82-3,0   0.14809099367         Di-octyl ether,CCCCCCCCOCCCCCCCC,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.1481,5.0,13.72,77.82,23.54,17.46,2.3535,In-Domain
+84-69-5,0    0.2000583548          Diisobutylphthalate,CC(C)COC(=O)c1ccccc1C(=O)OCC(C)C,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.2001,5.0,36.96,51.86,48.74,36.99,6.8407,Out-of-Domain
+98-11-3,0   0.20028456417          Benzenesulfonic acid,OS(=O)(=O)c1ccccc1,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.2003,5.0,11.42,9.62,13.33,10.52,2.8787,In-Domain
+99-04-7,0   0.34816531621          m-Methylbenzoic acid,Cc1cccc(c1)C(O)=O,Tier1_Literature_Sludge_SerumBottle,1,5.0,0.3482,5.0,16.99,20.8,17.16,15.97,0.6402,In-Domain
+126-30-7,Neopentyl glycol,CC(C)(CO)CO,Tier1_Literature_Sludge_SerumBottle,1,1.0,0.6602,1.0,61.15,44.49,49.77,53.34,1.0456,In-Domain
+105-67-9,"2,4-Dimethylphenol",Cc1ccc(O)c(C)c1,Tier1_Literature_Sludge_SerumBottle,1,0.0,-0.113,0.0,6.17,18.96,17.07,4.7,1.0191,In-Domain
+121-44-8,Triethylamine,CCN(CC)CC,Tier1_Literature_Sludge_SerumBottle,1,0.0,-0.3995,0.0,14.05,10.88,7.88,13.9,2.3645,In-Domain
+121-47-1,Metanilic acid,Nc1cccc(c1)S(O)(=O)=O,Tier1_Literature_Sludge_SerumBottle,1,0.0,-0.2003,0.0,8.12,-9.14,3.37,5.48,2.3538,In-Domain
+1330-78-5,Tricresylphosphate,Cc1ccccc1OP(=O)(Oc1ccccc1C)Oc1ccccc1C,Tier1_Literature_Sludge_SerumBottle,1,0.0,-0.8974,0.0,1.4,27.66,6.56,2.83,3.7789,In-Domain
+552-16-9,2-Nitrobenzoic acid,OC(=O)c1ccccc1[N+]([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,-2.0,0.5059,-2.0,3.24,34.01,8.15,5.27,2.0789,In-Domain
+289-95-2,Pyrimidine,c1cncnc1,Tier1_Literature_Sludge_SerumBottle,1,-2.0,0.4544,-2.0,14.08,30.01,11.31,7.46,1.4035,In-Domain
+51877-74-8,trans-Permethrin,CC1(C)[C@H](C=C(Cl)Cl)[C@H]1C(=O)OCc1cccc(Oc2ccccc2)c1,Tier1_Literature_Sludge_SerumBottle,1,-3.0,0.0206,-3.0,2.23,0.78,8.08,-0.77,7.0584,Out-of-Domain
+1120-21-4,n-Undecane,CCCCCCCCCCC,Tier1_Literature_Sludge_SerumBottle,1,-4.0,0.2754,-4.0,12.06,35.55,20.23,13.86,1.2296,In-Domain
+109-97-7,Pyrrole,c1cc[nH]c1,Tier1_Literature_Sludge_SerumBottle,1,-5.0,0.4544,-5.0,-1.7,1.71,-4.52,3.8,1.9549,In-Domain
+96-54-8,N-Methylpyrrole,Cn1cccc1,Tier1_Literature_Sludge_SerumBottle,1,-7.0,0.3748,-7.0,-4.1,20.09,5.69,0.94,3.4865,In-Domain
+108-90-7,Chlorobenzene,Clc1ccccc1,Tier1_Literature_Sludge_SerumBottle,1,-7.0,0.1748,-7.0,-7.9,25.87,-3.29,-3.66,1.5364,In-Domain
+107-41-5,Hexylene glycol,CC(O)CC(C)(C)O,Tier1_Literature_Sludge_SerumBottle,1,-8.0,0.256,-8.0,53.06,35.43,56.47,54.35,1.4165,In-Domain
+109-99-9,Tetrahydrofuran,C1CCOC1,Tier1_Literature_Sludge_SerumBottle,1,-9.0,0.0988,-9.0,16.12,87.02,36.64,28.88,3.9014,In-Domain
+71-43-2,Benzene,c1ccccc1,Tier1_Literature_Sludge_SerumBottle,1,-10.0,0.0,-10.0,-1.66,22.08,0.17,-0.98,3.402,In-Domain
+873-55-2,Sodium benzenesulfinate,[Na+].[O-][S+]([O-])c1ccccc1,Tier1_Literature_Sludge_SerumBottle,1,-10.0,,-10.0,56.71,19.54,43.46,51.5,2.4411,In-Domain
+107-02-8,Acrolein,C=CC=O,Tier1_Literature_Sludge_SerumBottle,1,-10.0,0.7381,-10.0,80.42,73.49,80.15,79.72,1.723,In-Domain
+88-75-5,2-Nitrophenol,Oc1ccccc1[N+]([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,-11.0,0.321,-11.0,-16.73,-0.72,-14.4,-16.01,0.8759,In-Domain
+321-14-2,5-Chlorosalicylic acid,OC(=O)c1cc(Cl)ccc1O,Tier1_Literature_Sludge_SerumBottle,1,-15.0,0.4938,-15.0,18.1,28.43,17.93,14.73,0.8252,In-Domain
+94-82-6,"4-(2,4-Dichlorophenoxy)butyric acid (2,4-DB)",OC(=O)CCCOc1ccc(Cl)cc1Cl,Tier1_Literature_Sludge_SerumBottle,1,-15.0,0.188,-15.0,6.61,12.2,-2.11,5.02,2.1322,In-Domain
+1912-24-9,Atrazine,CCNc1nc(Cl)nc(NC(C)C)n1,Tier1_Literature_Sludge_SerumBottle,1,-15.0,-0.5787,-15.0,6.32,10.46,11.18,2.2,4.1394,In-Domain
+95-57-8,2-Chlorophenol,Oc1ccccc1Cl,Tier1_Literature_Sludge_SerumBottle,1,-16.0,0.1328,-16.0,-20.98,-3.8,-17.27,-19.62,3.6601,In-Domain
+86-55-5,1-Naphthoic acid,OC(=O)c1cccc2ccccc12,Tier1_Literature_Sludge_SerumBottle,1,-16.0,0.4336,-16.0,23.75,12.38,20.77,19.36,2.0697,In-Domain
+62-23-7,4-Nitrobenzoic acid,OC(=O)c1ccc(cc1)[N+]([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,-19.0,0.5059,-19.0,11.58,26.3,13.22,12.96,2.2608,In-Domain
+61949-76-6,cis-Permethrin,CC1(C)[C@@H](C=C(Cl)Cl)[C@H]1C(=O)OCc1cccc(Oc2ccccc2)c1,Tier1_Literature_Sludge_SerumBottle,1,-21.0,0.0206,-21.0,2.23,0.78,8.08,-0.77,7.0584,Out-of-Domain
+110-02-1,Thiophene,c1ccsc1,Tier1_Literature_Sludge_SerumBottle,1,-21.0,0.4544,-21.0,-5.07,7.8,-3.12,-0.59,2.2358,In-Domain
+76-03-9,Trichloroacetic acid,OC(=O)C(Cl)(Cl)Cl,Tier1_Literature_Sludge_SerumBottle,1,-25.0,0.6447,-25.0,35.41,77.19,55.76,40.88,4.7081,In-Domain
+60-57-1,Dieldrin,ClC1=C(Cl)C2(Cl)C3C4CC(C5OC45)C3C1(Cl)C2(Cl)Cl,Tier1_Literature_Sludge_SerumBottle,1,-26.0,-0.3951,-26.0,-5.32,62.63,0.16,0.78,6.8737,Out-of-Domain
+94-74-6,MCPA,Cc1cc(Cl)ccc1OCC(O)=O,Tier1_Literature_Sludge_SerumBottle,1,-29.0,0.1665,-29.0,13.86,21.56,24.08,14.9,1.8329,In-Domain
+94-75-7,"2,4-D",OC(=O)COc1ccc(Cl)cc1Cl,Tier1_Literature_Sludge_SerumBottle,1,-30.0,0.136,-30.0,-0.47,14.99,0.86,-2.45,1.9682,In-Domain
+93-65-2,MCPP (Mecoprop),CC(Oc1ccc(Cl)cc1C)C(O)=O,Tier1_Literature_Sludge_SerumBottle,1,-30.0,-0.1049,-30.0,-11.55,-1.65,-5.05,-10.01,1.7275,In-Domain
+91-20-3,Naphthalene,c1ccc2ccccc2c1,Tier1_Literature_Sludge_SerumBottle,1,-32.0,-0.1909,-30.0,-6.0,21.77,-3.61,-4.83,2.1202,In-Domain
+77-47-4,Hexachlorocyclopentadiene,ClC1C(Cl)=C(Cl)C(Cl)(Cl)C=1Cl,Tier1_Literature_Sludge_SerumBottle,1,-35.0,0.4139,-30.0,-10.09,15.38,-2.44,-11.66,4.6644,In-Domain
+1461-22-9,Tributyltin chloride,[Cl-].CCCC[Sn+](CCCC)CCCC,Tier1_Literature_Sludge_SerumBottle,1,-36.0,-0.1219,-30.0,20.13,12.24,27.87,26.03,3.5185,In-Domain
+106-48-9,4-Chlorophenol,Oc1ccc(Cl)cc1,Tier1_Literature_Sludge_SerumBottle,1,-40.0,0.1328,-30.0,-5.71,6.29,-1.43,-6.84,1.0542,In-Domain
+108-43-0,3-Chlorophenol,Oc1cccc(Cl)c1,Tier1_Literature_Sludge_SerumBottle,1,-42.0,0.1328,-30.0,-5.7,6.29,-1.45,-6.87,1.0708,In-Domain
+93-76-5,"2,4,5-T",OC(=O)COc1cc(Cl)c(Cl)cc1Cl,Tier1_Literature_Sludge_SerumBottle,1,-50.0,-0.1708,-30.0,-15.35,0.43,-10.6,-15.75,1.9758,In-Domain
+104-40-5,4-Nonylphenol,CCCCCCCCCc1ccc(O)cc1,Tier1_Literature_Sludge_SerumBottle,1,-51.0,0.1979,-30.0,9.35,11.11,16.99,5.89,3.715,In-Domain
+87-65-0,"2,6-Dichlorophenol",Oc1c(Cl)cccc1Cl,Tier1_Literature_Sludge_SerumBottle,1,-57.0,-0.174,-30.0,-25.94,-22.76,-24.59,-25.3,2.9308,In-Domain
+1118-46-3,Butyltin trichloride,[Cl-].[Cl-].[Cl-].CCCC[Sn+3],Tier1_Literature_Sludge_SerumBottle,1,-60.0,0.5168,-30.0,38.04,-14.05,48.2,38.36,3.1576,In-Domain
+554-84-7,3-Nitrophenol,Oc1cccc(c1)[N+]([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,-62.0,0.321,-30.0,-12.56,-5.13,-12.0,-11.12,0.9984,In-Domain
+90-15-3,1-Naphthol,Oc1cccc2ccccc12,Tier1_Literature_Sludge_SerumBottle,1,-79.0,0.2488,-30.0,-16.79,-11.84,-12.65,-17.34,0.9545,In-Domain
+135-19-3,2-Naphthol,Oc1ccc2ccccc2c1,Tier1_Literature_Sludge_SerumBottle,1,-83.0,0.2488,-30.0,-21.57,-14.88,-13.92,-21.63,0.9312,In-Domain
+57-09-0,CTAB,[Br-].CCCCCCCCCCCCCCCC[N+](C)(C)C,Tier1_Literature_Sludge_SerumBottle,1,-86.0,0.1522,-30.0,8.34,14.76,24.41,13.21,3.6658,In-Domain
+25155-30-0,Sodium dodecylbenzene sulfonate,[Na+].CCCCCCCCCC(CC)c1ccc(cc1)S([O-])(=O)=O,Tier1_Literature_Sludge_SerumBottle,1,-89.0,-0.2468,-30.0,5.86,17.99,8.25,0.06,3.3931,In-Domain
+90-43-7,2-Phenylphenol,Oc1ccccc1-c1ccccc1,Tier1_Literature_Sludge_SerumBottle,1,-93.0,0.2761,-30.0,-15.31,-9.92,-4.26,-14.7,1.0788,In-Domain
+58-89-9,Lindane,ClC1C(Cl)C(Cl)C(Cl)C(Cl)C1Cl,Tier1_Literature_Sludge_SerumBottle,1,-97.0,0.9848,-30.0,23.23,40.87,45.35,39.07,3.7424,In-Domain
+683-18-1,Dibutyltin dichloride,[Cl-].[Cl-].CCCC[Sn+2]CCCC,Tier1_Literature_Sludge_SerumBottle,1,-98.0,0.1974,-30.0,14.09,3.18,24.81,18.69,2.8715,In-Domain
+5324-84-5,Sodium 4-octylbenzene sulfonate,O.[Na+].CCCCCCCCS([O-])(=O)=O,Tier1_Literature_Sludge_SerumBottle,1,-117.0,,-30.0,55.33,77.75,57.28,53.3,2.9231,In-Domain
+100-02-7,4-Nitrophenol,Oc1ccc(cc1)[N+]([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,-126.0,0.321,-30.0,-11.44,-4.14,-12.9,-9.26,1.4099,In-Domain
+87-86-5,Pentachlorophenol,Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl,Tier1_Literature_Sludge_SerumBottle,1,-150.0,-1.0946,-30.0,-24.01,-23.02,-23.55,-23.59,6.5984,Out-of-Domain
+84-65-1,Anthraquinone,O=C1c2ccccc2C(=O)c2ccccc12,Tier1_Literature_Sludge_SerumBottle,1,-150.0,-0.7111,-30.0,-7.72,8.38,-7.26,-10.7,2.9672,In-Domain
+88-06-2,"2,4,6-Trichlorophenol",Oc1c(Cl)cc(Cl)cc1Cl,Tier1_Literature_Sludge_SerumBottle,1,-207.0,-0.4809,-30.0,-23.72,-22.52,-17.92,-23.55,3.2444,In-Domain
+51-28-5,"2,4-Dinitrophenol",Oc1ccc(cc1[N+]([O-])=O)[N+]([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,-320.0,0.2024,-30.0,-15.94,-9.71,-14.71,-14.73,0.6274,In-Domain
+329-71-5,"2,5-Dinitrophenol",Oc1cc(ccc1[N+]([O-])=O)[N+]([O-])=O,Tier1_Literature_Sludge_SerumBottle,1,-328.0,0.2024,-30.0,-13.73,-10.73,-14.84,-13.96,0.6398,In-Domain
+591-35-5,"3,5-Dichlorophenol",Oc1cc(Cl)cc(Cl)c1,Tier1_Literature_Sludge_SerumBottle,1,-381.0,-0.174,-30.0,-23.33,-19.38,-25.97,-24.56,2.1947,In-Domain

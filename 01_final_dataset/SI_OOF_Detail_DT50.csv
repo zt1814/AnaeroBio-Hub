@@ -1,0 +1,86 @@
+CAS_RN,Chemical_Name,SMILES,Mean_Anaerobic_DT50_d,OOF_Pred_DT50_d,True_log10_DT50,OOF_Pred_log10_DT50
+106-44-5,p-Cresol,Cc1ccc(O)cc1,13.39,19.29,1.1268,1.2854
+127-18-4,tetrachloroethene,ClC(Cl)=C(Cl)Cl,17.41,74.14,1.2408,1.8701
+224049-04-1,"5-Isothiazolecarboxamide, 3,4-dichloro-N-(2-cyanophenyl)-",OC(=Nc1ccccc1C#N)c1snc(Cl)c1Cl,60.36,131.16,1.7807,2.1178
+160901-28-0,"Alcohols, C9-11, branched and linear, ethoxylated, sulfates, sodium salts",[Na+].[Na+].[O-]S([O-])(=O)=O,7.35,17.61,0.8663,1.2456
+82097-50-5,"1-[2-(2-chloroethoxy)phenylsulfonyl]-3-(4-methoxy-6-methyl-1,3,5-triazin-2-yl)urea;triasulfuron (ISO)",COc1nc(C)nc(NC(=O)NS(=O)(=O)c2ccccc2OCCCl)n1,104.87,57.57,2.0207,1.7602
+1643-20-5,dodecyldimethylamine oxide,CCCCCCCCCCCC[N+](C)(C)[O-],47.09,47.14,1.6729,1.6734
+2605-79-0,decyl(dimethyl)amine oxide,CCCCCCCCCC[N+](C)(C)[O-],39.36,31.75,1.5951,1.5017
+308062-29-5,"Amines, C14-16 (even numbered)-alkyldimethyl, N-oxides",OO.CCCCCCCCCCCC[N+](C)(C)[O-].CCCCCCCCCCCCCC[N+](C)(C)[O-].CCCCCCCCCCCCCCCC[N+](C)(C)[O-].CCCCCCCCCCCCCCCCCC[N+](C)(C)[O-],78.31,68.65,1.8938,1.8367
+308062-28-4,"Amines, C12-14-alkyldimethyl, N-oxides",OO.CCCCCCCCCC[N+](C)(C)[O-].CCCCCCCCCCCC[N+](C)(C)[O-].CCCCCCCCCCCCCC[N+](C)(C)[O-].CCCCCCCCCCCCCCCC[N+](C)(C)[O-],66.38,67.35,1.822,1.8284
+117-81-7,"1,2-bis(2-ethylhexyl) benzene-1,2-dicarboxylate",CCCCC(CC)COC(=O)c1ccccc1C(=O)OCC(CC)CCCC,119.34,48.91,2.0768,1.6894
+25713-60-4,"2,4,6-tris(2,4,6-tribromophenoxy)-1,3,5-triazine [SR-245]",Brc1cc(Br)c(Oc2nc(Oc3c(Br)cc(Br)cc3Br)nc(Oc3c(Br)cc(Br)cc3Br)n2)c(Br)c1,504.36,1.58,2.7027,0.2
+68891-38-3,"alcohols, c12-14(even numbered), ethoxylated < 2.5 eo, sulfates, sodium salts",CCCCCCCCCCCCCO,12.38,18.32,1.0927,1.2629
+157627-92-4,"Alcohols, C10-16, ethoxylated (1-2.5 EO), sulfates, mono (hydroxyethyl) ammonium salts",NCCO.NCCO.NCCO.NCCO.CCCCCCCCCCOCCOCCOS(O)(=O)=O.CCCCCCCCCCCCOCCOCCOS(O)(=O)=O.CCCCCCCCCCCCCCCCOCCOCCOS(O)(=O)=O.CCCCCCCCCCCCCCOCCOOS(=O)(=O)OC(N)CO,16.84,32.48,1.2263,1.5116
+157627-94-6,"Alcohols C12-14, ethoxylated (1-2.5 EO) sulfated, trieth salts",OCCN(CCO)CCO.OCCN(CCO)CCO.OCCN(CCO)CCO.OCCN(CCO)CCO.OCCN(CCO)CCO.CCCCCCCCCCOCCOCCOS(O)(=O)=O.CCCCCCCCCCCCOCCOCCOS(O)(=O)=O.CCCCCCCCCCCCCCOCCOCCOS(O)(=O)=O.CCCCCCCCCCCCCCCCOCCOCCOS(O)(=O)=O,21.57,28.4,1.3339,1.4533
+68891-29-2,"Alcohols, C8-10, ethoxylated, sulfates, ammonium salts [1 - 2.5 moles ethoxylated]",[NH4+].[NH4+].[NH4+].[O-]S([O-])(=O)=O.CCCCCCCCCCCCOCCOS([O-])(=O)=O,17.13,26.86,1.2338,1.4291
+161074-79-9,"Alcohols, C12-13, branched and linear, ethoxylated, sulfates, sodium salts",[Na+].[Na+].C1CO1.[O-]S([O-])(=O)=O.C1COCCO1,11.33,17.93,1.0542,1.2536
+68610-66-2,"Alcohols, C10-12 (even numbered), ethoxylated (1-2.5 EO), sulfated, sodium salts",[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[O-]S([O-])(=O)=O.CCCCCCCCCCO.CCCCCCCCCCCCO.CCCCCCCCCCCCCCO.CCCCCCCCCCOS([O-])(=O)=O.CCCCCCCCCCCCOS([O-])(=O)=O.CCCCCCCCCCCCCCOS([O-])(=O)=O.CCCCCCCCCCCCOCCOS([O-])(=O)=O.CCCCCCCCCCCCOCCOS([O-])(=O)=O.CCCCCCCCCCCCOCCOCCOS([O-])(=O)=O.CCCCCCCCCCCCOCCOCCOCCOS([O-])(=O)=O,17.13,16.59,1.2338,1.2199
+25155-25-3,"[1,3(or 1,4)-phenylenebis(1-methylethylidene)]bis[tert-butyl] peroxide",CC(C)(C)OOC(C)(C)C1=CC=C(C=C1)C(C)(C)OOC(C)(C)C,43.27,37.36,1.6362,1.5724
+2212-81-9,"[1,3-phenylenebis(1-methylethylidene)]bis[tert-butyl] peroxide",CC(C)(C)OOC(C)(C)c1cccc(c1)C(C)(C)OOC(C)(C)C,128.23,245.21,2.108,2.3895
+85536-14-7,4-(tridecan-3-yl)benzene-1-sulfonic acid,OS(O)(=O)=O,72.56,7.58,1.8607,0.8796
+68411-30-3,"Benzenesulfonic acid, C10-13-alkyl derivs., sodium salts",[Na+].CCCCCCCCCCCc1ccc(cc1)S([O-])(=O)=O,259.79,38.15,2.4146,1.5815
+151-21-3,Sodium dodecyl sulfate,[Na+].CCCCCCCCCCCCOS([O-])(=O)=O,24.08,28.38,1.3817,1.4531
+881685-58-1,632-619-2,CC(C)C1C2CCC1c1c(NC(=O)c3cn(C)nc3C(F)F)cccc21,264.08,107.2,2.4217,2.0302
+70693-62-8,pentapotassium bis((hydroperoxysulfonyl)oxidanide) hydrogen sulfate sulfate,[K+].[K+].[K+].[K+].[K+].OS([O-])(=O)=O.[O-]S([O-])(=O)=O.OS(=O)(=O)O[O-].OS(=O)(=O)O[O-],5.71,13.33,0.7566,1.1248
+623-03-0,4-Chlorobenzonitrile,Clc1ccc(cc1)C#N,26.24,32.93,1.419,1.5176
+79-94-7,"2,2',6,6'-tetrabromo-4,4'-isopropylidenediphenol",CC(C)(c1cc(Br)c(O)c(Br)c1)c1cc(Br)c(O)c(Br)c1,229.26,171.19,2.3603,2.2335
+473278-76-1,"2-{2-chloro-4-(methylsulfonyl)-3-[(tetrahydrofuran-2-ylmethoxy)methyl]benzoyl}cyclohexane-1,3-dione",CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC1CCCO1,331.72,176.63,2.5208,2.2471
+138261-41-3,2-chloro-5-{[2-(nitroimino)imidazolidin-1-yl]methyl}pyridine,[O-][N+](=O)N=C1NCCN1Cc1ccc(Cl)nc1,340.21,75.53,2.5317,1.8781
+1300-71-6,"2,6-Dimethylphenol",CC1=C(C(=CC=C1)O)C,13.81,31.9,1.1402,1.5038
+78-87-5,"1,2-Dichloropropane",CC(Cl)CCl,24.53,22.52,1.3897,1.3525
+121776-33-8,"2,2-dichloro-1-[5-(furan-2-yl)-2,2-dimethyl-1,3-oxazolidin-3-yl]ethan-1-one",CC1(C)OC(CN1C(=O)C(Cl)Cl)c1ccco1,73.51,143.94,1.8663,2.1582
+,35XY60,CCc1ccc(O)cc1.CCc1cccc(O)c1.Cc1cc(C)cc(O)c1.Cc1ccc(O)cc1C,13.39,29.79,1.1268,1.474
+,MIDS,CCc1ccc(O)cc1.CCc1cccc(O)c1.Cc1cc(C)cc(O)c1.Cc1cccc(O)c1C,13.39,29.79,1.1268,1.474
+874195-61-6,"N-{2-[(4,6-dimethoxy-1,3,5-triazin-2-yl)carbonyl]-6-fluorophenyl}-1,1-difluoro-N-methylmethanesulfonamide",COc1nc(OC)nc(n1)C(=O)c1cccc(F)c1N(C)S(=O)(=O)C(F)F,39.28,123.86,1.5942,2.0929
+,"3,4 XYL",Cc1cc(C)cc(O)c1.Cc1ccc(O)cc1C.CCc1ccc(O)c(C)c1.CC(C)c1ccc(O)cc1,13.81,34.19,1.1402,1.5339
+84989-07-1,"Tar acids, 3,5-xylenol fraction",Cc1ccc(O)cc1.Cc1cccc(O)c1.CCc1ccc(O)cc1.CCc1cccc(O)c1.Cc1ccc(O)c(C)c1.Cc1ccc(C)c(O)c1.Cc1cc(C)cc(O)c1.Cc1ccc(O)cc1C.Cc1cccc(O)c1C.CCc1ccc(O)c(C)c1,13.81,23.38,1.1402,1.3689
+79-01-6,"1,1,2-trichloroethene",ClC=C(Cl)Cl,54.24,38.3,1.7343,1.5832
+13463-41-7,"bis [1-hydroxy-2(1h)-pyridinethionato-o,s](t-4)-zinc",[Zn+2].[O-]N1C=CC=CC1=S.[O-]N1C=CC=CC1=S,15.73,61.29,1.1967,1.7874
+52-51-7,"2-bromo-2-nitropropane-1,3-diol",OCC(Br)(CO)[N+]([O-])=O,5.08,13.68,0.7059,1.1361
+6731-36-8,"1,1-Bis(tert-butylperoxy)-3,3,5-trimethylcyclohexane",CC1CC(C)(C)CC(C1)(OOC(C)(C)C)OOC(C)(C)C,35.05,196.08,1.5447,2.2924
+420-04-2,Cyanamide,NC#N,5.9,11.71,0.7709,1.0687
+156-62-7,Calcium cyanamide,[Ca+2].[N-]=C=[N-],6.5,10.23,0.8129,1.0101
+67-66-3,Chloroform,ClC(Cl)Cl,38.51,48.31,1.5856,1.684
+75-09-2,Dichloromethane,ClCCl,13.71,10.76,1.137,1.032
+133855-98-8,"(2RS,3RS)-3-(2-chlorophenyl)-2-(4-fluorophenyl)-[(1H-1,2,4-triazol-1-yl)methyl]oxirane [BAS 480 F]",Fc1ccc(cc1)C1(Cn2cncn2)OC1c1ccccc1Cl,287.22,162.93,2.4582,2.212
+1689-99-2,"2,6-dibromo-4-cyanophenyl octanoate",CCCCCCCC(=O)Oc1c(Br)cc(cc1Br)C#N,82.84,56.77,1.9182,1.7541
+634-93-5,"2,4,6-Trichloroaniline",Nc1c(Cl)cc(Cl)cc1Cl,311.18,158.68,2.493,2.2005
+371-40-4,4-Fluoroaniline,Nc1ccc(F)cc1,106.91,37.27,2.029,1.5714
+66215-27-8,"N-cyclopropyl-1,3,5-triazine-2,4,6-triamine",Nc1nc(N)nc(NC2CC2)n1,79.23,105.82,1.8989,2.0246
+834-12-8,Ametryn,CCNc1nc(NC(C)C)nc(SC)n1,263.44,92.43,2.4207,1.9658
+111988-49-9,"3-(2-chlor-5-pyridyl-methyl)-cyanimino-1,3-thiazolidin",Clc1ccc(CN2CCSC2=NC#N)cn1,156.15,118.14,2.1935,2.0724
+1229654-66-3,"1-(3-chloropyridin-2-yl)-N-[4-cyano-2-methyl-6-(methylcarbamoyl)phenyl]-3-{[5-(trifluoromethyl)-2H-1,2,3,4-tetrazol-2-yl]methyl}-1H-pyrazole-5-carboxamide",CC1=CC(=CC(=C1NC(=O)C2=CC(=NN2C3=C(C=CC=N3)Cl)CN4N=C(N=N4)C(F)(F)F)C(=O)NC)C#N,134.74,76.78,2.1295,1.8852
+96-76-4,"2,4-Di-tert-butylphenol",CC(C)(C)c1ccc(O)c(c1)C(C)(C)C,153.95,93.08,2.1874,1.9689
+950782-86-2,"N-[(1R,2S)-2,3-Dihydro-2,6-dimethyl-1H-inden-1-yl]-6-[(1RS)-1-fluoroethyl]-1,3,5-triazine-2,4-diamine",CC(F)c1nc(N)nc(N[C@@H]2[C@@H](C)Cc3ccc(C)cc23)n1,432.71,222.87,2.6362,2.348
+77-71-4,"5,5-Dimethylhydantoin",CC1(C)NC(=O)NC1=O,40.1,15.46,1.6031,1.1892
+131807-57-3,"3-anilino-5-methyl-5-(4-phenoxyphenyl)-1,3-oxazolidine-2,4-dione;famoxadone (ISO)",CC1(OC(=O)N(Nc2ccccc2)C1=O)c1ccc(Oc2ccccc2)cc1,177.15,154.85,2.2483,2.1899
+123312-89-0,"6-methyl-4-[(E)-[(pyridin-3-yl)methylidene]amino]-2,3,4,5-tetrahydro-1,2,4-triazin-3-one",CC1CN(\N=C\c2cccnc2)C(=O)NN=1,17.34,44.95,1.239,1.6528
+148477-71-8,"3-(2,4-dichlorophenyl)-2-oxo-1-oxaspiro[4.5]dec-3-en-4-yl 2,2-dimethylbutanoate",CCC(C)(C)C(=O)OC1=C(C(=O)OC21CCCCC2)c1ccc(Cl)cc1Cl,256.63,124.73,2.4093,2.096
+136-53-8,zinc bis(2-ethylhexanoate),CCCCC(CC)C(=O)O[Zn]OC(=O)C(CC)CCCC,60.58,58.97,1.7823,1.7707
+861229-15-4,2-Ethylhexyl (R)-2-(2-methyl-4chlorophenoxy)propionate,CCCCC(CC)COC(=O)[C@@H](C)OC1=C(C=C(C=C1)Cl)C,76.06,45.84,1.8812,1.6612
+99607-70-2,(2R)-heptan-2-yl 2-[(5-chloroquinolin-8-yl)oxy]acetate; (2S)-heptan-2-yl 2-[(5-chloroquinolin-8-yl)oxy]acetate,CCCCCC(C)OC(=O)COc1ccc(Cl)c2cccnc12,28.13,125.3,1.4492,2.0979
+55406-53-6,3-iodo-2-propynyl butylcarbamate,CCCCNC(=O)OCC#CI,11.72,23.44,1.0689,1.37
+163520-33-0,"ethyl 5,5-diphenyl-2-isoxazoline-3-carboxylate",CCOC(=O)C1CC(ON=1)(c1ccccc1)c1ccccc1,52.13,75.22,1.7171,1.8763
+90982-32-4,ethyl 2-({[(4-chloro-6-methoxypyrimidin-2-yl)carbamoyl]amino}sulfonyl)benzoate,CCOC(=O)c1ccccc1S(=O)(=O)NC(=O)Nc1nc(Cl)cc(OC)n1,25.13,48.8,1.4002,1.6884
+2921-88-2,Chlorpyrifos,CCOP(=S)(OCC)Oc1nc(Cl)c(Cl)cc1Cl,131.39,127.13,2.1186,2.1043
+97780-06-8,"ethametsulfuron-methyl (ISO); methyl 2-[(4-ethoxy-6-methylamino-1,3,5-triazin-2-yl)carbamoylsulfamoyl]benzoate",CCOc1nc(NC)nc(NC(=O)NS(=O)(=O)c2ccccc2C(=O)OC)n1,16.34,40.0,1.2133,1.6021
+134605-64-4,"1-(allyloxy)-2-methyl-1-oxopropan-2-yl 2-chloro-5-[3-methyl-2,6-dioxo-4-(trifluoromethyl)-3,6-dihydropyrimidin-1(2H)-yl]benzoate",CN1C(=O)N(C(=O)C=C1C(F)(F)F)c1ccc(Cl)c(c1)C(=O)OC(C)(C)C(=O)OCC=C,113.38,130.17,2.0545,2.1145
+153719-23-4,"3-[(2-Chloro-1,3-thiazol-5-yl)methyl]-5-methyl-N-nitro-1,3,5-oxadiazinan-4-imine",CN1COCN(Cc2cnc(Cl)s2)C/1=N\[N+]([O-])=O,77.03,118.18,1.8867,2.0725
+16752-77-5,(E)-[1-(methylsulfanyl)ethylidene]amino N-methylcarbamate,CNC(=O)ON=C(C)SC,8.8,15.71,0.9445,1.1961
+117428-22-5,methyl (2E)-3-methoxy-2-[2-({[6-(trifluoromethyl)pyridin-2-yl]oxy}methyl)phenyl]acrylate,CO\C=C(\C(=O)OC)c1ccccc1COc1cccc(n1)C(F)(F)F,81.59,99.64,1.9116,1.9984
+3618-72-2,"2-{[2-(acetyloxy)ethyl]({4-[ (E)-2-(2-bromo-4,6-dinitrophenyl)diazen-1-yl]-5acetamido-2-methoxyphenyl})amino}ethyl acetate",COc1cc(N=Nc2c(Br)cc(cc2[N+]([O-])=O)[N+]([O-])=O)c(NC(C)=O)cc1N(CCOC(C)=O)CCOC(C)=O,332.9,154.26,2.5223,2.1883
+1229-55-6,(1Z)-1-[(2-methoxyphenyl)hydrazinylidene]naphthalen-2-one,COc1ccccc1\N=N\c1c(O)ccc2ccccc12,120.53,90.2,2.0811,1.9552
+556-67-2,"2,2,4,4,6,6,8,8-octamethyl-1,3,5,7,2,4,6,8-tetroxatetrasilocane",C[Si]1(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O1,289.97,62.83,2.4624,1.7982
+2554-06-5,"2,4,6,8-tetramethyl-2,4,6,8-tetravinyl-1,3,5,7,2,4,6,8-tetroxatetrasilocane",C[Si]1(O[Si](C)(O[Si](C)(O[Si](C)(O1)C=C)C=C)C=C)C=C,442.4,306.86,2.6458,2.4869
+365400-11-9,"2,5-dimethyl-4-[2-methylsulfonyl-4-(trifluoromethyl)benzoyl]-1H-pyrazol-3-one",Cc1nn(C)c(O)c1C(=O)c1ccc(cc1S(C)(=O)=O)C(F)(F)F,246.65,143.27,2.3921,2.1561
+96-18-4,"1,2,3-Trichloropropane",ClCC(Cl)CCl,37.01,62.7,1.5683,1.7973
+1194-65-6,"2,6-dichlorobenzonitrile",Clc1cccc(Cl)c1C#N,255.93,59.51,2.4081,1.7746
+100-70-9,pyridine-2-carbonitrile,N#Cc1ccccn1,5.25,8.12,0.7202,0.9097
+100-54-9,nicotinonitrile,N#Cc1cccnc1,5.25,8.22,0.7202,0.915
+858956-08-8,6-amino-5-chloro-2-cyclopropylpyrimidine-4-carboxylic acid,Nc1nc(nc(C(O)=O)c1Cl)C1CC1,54.56,64.23,1.7369,1.8078
+111-30-8,glutaral,O=CCCCC=O,4.28,6.01,0.6314,0.7789
+7790-98-9,Ammonium perchlorate,[NH4+].[O-]Cl(=O)(=O)=O,15.78,17.57,1.1981,1.2448
+199119-58-9,"2-Pyridinesulfonamide, N-[[(4,6-dimethoxy-2-pyrimidinyl)amino]carbonyl]-3-(2,2,2-trifluoroethoxy)-, sodium salt (1:1)",[Na+].COc1cc(OC)nc(NC(=O)[N-]S(=O)(=O)c2ncccc2OCC(F)(F)F)n1,32.79,95.16,1.5157,1.9785
+7601-89-0,Sodium perchlorate,[Na+].[O-]Cl(=O)(=O)=O,8.87,8.36,0.9479,0.9222
+1263133-33-0,"1-(pyrimidin-5-ylmethyl)-3-[[]3-(trifluoromethyl)phenyl]pyrido[[]1,2-a]pyrimidin-1-ium-3-ide-2,4-dione",[O-]C1N(Cc2cncnc2)c2cccc[n+]2C(=O)C=1c1cccc(c1)C(F)(F)F,434.04,158.52,2.6375,2.2001

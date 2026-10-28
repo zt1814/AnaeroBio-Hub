@@ -1,0 +1,4 @@
+Task,N,R2,Pearson_r,Spearman_rho,RMSE,MAE,Unit
+"1. Ultimate Anaerobic Biodegradability (% ThGP, Sludge Tier-1)",295,0.5823,0.7631,0.7485,25.04,18.62,% ThGP
+2. Anaerobic Biotransformation Half-Life log10(DT50),85,0.4221,0.6592,0.742,0.4327,0.2994,log10(days)
+3. Methanogenic Acclimation Lag Time (Lag),75,0.4305,0.6612,0.6741,20.03,14.79,days

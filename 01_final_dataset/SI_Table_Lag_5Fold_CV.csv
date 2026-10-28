@@ -1,0 +1,7 @@
+﻿Task,Fold,N,R2,RMSE,MAE,Spearman_rho,Spearman_p
+Methanogenic Acclimation Lag (d),1,15,0.7704,11.1838,7.9492,0.8962,6e-06
+Methanogenic Acclimation Lag (d),2,15,0.2576,21.7446,18.4566,0.4664,0.079695
+Methanogenic Acclimation Lag (d),3,15,0.1547,25.9233,20.5755,0.5211,0.046369
+Methanogenic Acclimation Lag (d),4,15,0.3662,15.1127,12.0194,0.2524,0.364199
+Methanogenic Acclimation Lag (d),5,15,0.5428,22.5399,14.953,0.9102,2e-06
+Methanogenic Acclimation Lag (d),OOF (Overall),75,0.4305,20.0318,14.7908,0.6741,0.0

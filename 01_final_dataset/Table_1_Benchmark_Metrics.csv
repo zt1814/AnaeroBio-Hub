@@ -1,0 +1,6 @@
+Task_and_Cohort,N,R2,R2_95CI,Pearson_r,r_squared,Spearman_rho,Spearman_95CI,RMSE,MAE,ROC_AUC,BIOWIN7_Baseline_R2
+Task 1 (%ThGP) - Tier-1 Digested Sludge Benchmark (N=348),348,0.6211,"[0.5494, 0.6880]",0.789,0.6225,0.7692,"[0.7187, 0.8163]",27.1326,19.9704,0.8997,0.1431
+Task 1 (%ThGP) - Full Anaerobic Benchmark (N=496),496,0.5645,"[0.4977, 0.6203]",0.7548,0.5697,0.7164,"[0.6682, 0.7604]",27.9735,21.4893,0.8865,0.0685
+Task 1 (%ThGP) - Core High-Confidence Sludge Subset (N=295),295,0.3624,"[0.2718, 0.4454]",0.6048,0.3658,0.5791,"[0.4965, 0.6531]",28.9779,23.3449,0.8103,0.0472
+"Task 2: Biotransformation Half-Life log10(DT50, days) (N=85)",85,0.4219,"[-0.0646, 0.7159]",0.659,0.4343,0.742,"[0.5732, 0.8617]",0.4328,0.2994,,
+Task 3: Methanogenic Acclimation Lag (days) (N=75),75,0.4305,"[0.2133, 0.5777]",0.6594,0.4348,0.6741,"[0.5218, 0.7900]",20.0318,14.7908,,

@@ -1,0 +1,16 @@
+Cohort,Configuration,Num_Features,N,R2,R2_95CI,Pearson_r,r_squared,Spearman_rho,RMSE,MAE,ROC_AUC
+Tier-1 Digested Sludge Benchmark (N=348),0. Baseline: US EPA BIOWIN 7 (Linear Fragment QSAR),1,323,0.1431,"[0.0269, 0.2273]",0.382,0.146,0.5901,40.8514,36.3194,0.8394
+Tier-1 Digested Sludge Benchmark (N=348),1. M1 Only: Elemental & Carbon-Skeleton Topology,13,348,0.4678,"[0.3691, 0.5461]",0.6845,0.4686,0.6666,32.1547,24.9612,0.8477
+Tier-1 Digested Sludge Benchmark (N=348),2. M1 + M2: + 78.5k EPI Suite Kinetic Priors,23,348,0.5396,"[0.4486, 0.6207]",0.7346,0.5397,0.7208,29.9072,21.7601,0.8808
+Tier-1 Digested Sludge Benchmark (N=348),3. M1 + M2 + M3: + 55.9k Phase & pKa Dissociation Thermo.,29,348,0.6177,"[0.5469, 0.6840]",0.7871,0.6195,0.7667,27.2521,19.9581,0.8991
+Tier-1 Digested Sludge Benchmark (N=348),4. Full AnBioGate (M1+M2+M3+M4 Physics & Biochem. Gates),52,348,0.6211,"[0.5494, 0.6880]",0.789,0.6225,0.7692,27.1326,19.9704,0.8997
+Full Anaerobic Benchmark (N=496),0. Baseline: US EPA BIOWIN 7 (Linear Fragment QSAR),1,457,0.0685,"[0.0157, 0.1106]",0.2636,0.0695,0.4405,41.0196,36.4214,0.775
+Full Anaerobic Benchmark (N=496),1. M1 Only: Elemental & Carbon-Skeleton Topology,13,496,0.3013,"[0.2248, 0.3734]",0.5496,0.3021,0.5401,35.4335,28.6602,0.8007
+Full Anaerobic Benchmark (N=496),2. M1 + M2: + 78.5k EPI Suite Kinetic Priors,23,496,0.3786,"[0.3015, 0.4475]",0.6156,0.379,0.5999,33.4156,25.9301,0.833
+Full Anaerobic Benchmark (N=496),3. M1 + M2 + M3: + 55.9k Phase & pKa Dissociation Thermo.,29,496,0.5386,"[0.4731, 0.5974]",0.7373,0.5436,0.7004,28.7923,22.288,0.8783
+Full Anaerobic Benchmark (N=496),4. Full AnBioGate (M1+M2+M3+M4 Physics & Biochem. Gates),52,496,0.5645,"[0.4977, 0.6203]",0.7548,0.5697,0.7164,27.9735,21.4893,0.8865
+Core High-Confidence Sludge Subset (N=295),0. Baseline: US EPA BIOWIN 7 (Linear Fragment QSAR),1,259,0.0472,"[-0.0082, 0.0895]",0.2175,0.0473,0.293,35.4585,30.9202,0.6843
+Core High-Confidence Sludge Subset (N=295),1. M1 Only: Elemental & Carbon-Skeleton Topology,13,295,0.2121,"[0.0938, 0.3049]",0.4655,0.2167,0.4524,32.213,25.9929,0.7464
+Core High-Confidence Sludge Subset (N=295),2. M1 + M2: + 78.5k EPI Suite Kinetic Priors,23,295,0.2527,"[0.1449, 0.3437]",0.5041,0.2541,0.4819,31.3733,25.3116,0.7553
+Core High-Confidence Sludge Subset (N=295),3. M1 + M2 + M3: + 55.9k Phase & pKa Dissociation Thermo.,29,295,0.3396,"[0.2476, 0.4294]",0.5839,0.3409,0.5601,29.4926,23.5582,0.8031
+Core High-Confidence Sludge Subset (N=295),4. Full AnBioGate (M1+M2+M3+M4 Physics & Biochem. Gates),52,295,0.3624,"[0.2718, 0.4454]",0.6048,0.3658,0.5791,28.9779,23.3449,0.8103

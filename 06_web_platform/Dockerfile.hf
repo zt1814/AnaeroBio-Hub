@@ -1,0 +1,47 @@
+# AnaeroBio-Hub v4.0 — Hugging Face Spaces (Docker SDK) image.
+# On the Space repo this file must be named "Dockerfile" at the repo root (see 06_web_platform/HF_SPACES.md).
+# Same app as the compose image, but: single public port 7860 (nginx inside the container), non-root user 1000,
+# default PyPI index (HF build servers are outside China), public submission closed.
+FROM python:3.12-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        libgomp1 libxrender1 libexpat1 nginx curl \
+    && rm -rf /var/lib/apt/lists/* \
+    && useradd -m -u 1000 user
+
+WORKDIR /app
+
+COPY 06_web_platform/requirements.txt /tmp/requirements.txt
+RUN pip install -r /tmp/requirements.txt
+RUN pip install "rdkit>=2024.9.1" || echo "[WARN] rdkit not installed — using built-in desalting fallback"
+
+COPY --chown=1000:1000 06_web_platform/           ./06_web_platform/
+COPY --chown=1000:1000 01_final_dataset/          ./01_final_dataset/
+COPY --chown=1000:1000 03_priors_and_metabolism/  ./03_priors_and_metabolism/
+COPY --chown=1000:1000 site/                      ./site/
+
+RUN test -s 01_final_dataset/anaerobic_multimodal_benchmark.db \
+ && test -s 03_priors_and_metabolism/QSAR_Observed_Microbial_Metabolism_Pathways.csv \
+ && test -s 06_web_platform/multimodal_v4_bundle.pkl \
+ && test -s 06_web_platform/nginx.hf.conf \
+ && sed -i 's/\r$//' 06_web_platform/docker_entrypoint_hf.sh \
+ && python -c "import pickle,sklearn,numpy; b=pickle.load(open('06_web_platform/multimodal_v4_bundle.pkl','rb')); print('bundle OK:', b['version'], '| sklearn', sklearn.__version__, '| numpy', numpy.__version__)"
+
+USER 1000
+ENV HOME=/home/user \
+    PYTHONPATH=/app/06_web_platform \
+    PORTAL_HOME_URL=/ \
+    ENABLE_PUBLIC_SUBMISSION=false
+# Set PUBLIC_BASE_URL (Space → Settings → Variables), e.g. https://<user>-<space>.hf.space
+EXPOSE 7860
+
+HEALTHCHECK --interval=30s --timeout=10s --start-period=90s --retries=3 \
+    CMD curl -fsS http://127.0.0.1:7860/api/v1/status >/dev/null || exit 1
+
+CMD ["bash", "/app/06_web_platform/docker_entrypoint_hf.sh"]

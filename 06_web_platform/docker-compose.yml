@@ -1,0 +1,53 @@
+# AnaeroBio-Hub v4.0 — public deployment stack (Ubuntu 24.04 / ai-node-01)
+#   cd <repo root> && docker compose -f 06_web_platform/docker-compose.yml up --build -d
+# All host paths below are RELATIVE TO THIS FILE (06_web_platform/), so the repo can live anywhere.
+name: anaerobio-hub
+
+services:
+  hub:
+    build:
+      context: ..                              # repo root (filtered by the allowlist .dockerignore)
+      dockerfile: 06_web_platform/Dockerfile
+    image: anaerobio-hub:v4.0
+    container_name: anaerobio_hub
+    restart: unless-stopped
+    volumes:
+      # Core production file 1 — SQLite DB. Mount the DIRECTORY (SQLite needs to create journal/WAL
+      # files beside the .db) so community_submissions + model_versions persist on the host.
+      - ../01_final_dataset:/app/01_final_dataset
+      # Core production file 2 — metabolism pathways (read-only).
+      - ../03_priors_and_metabolism/QSAR_Observed_Microbial_Metabolism_Pathways.csv:/app/03_priors_and_metabolism/QSAR_Observed_Microbial_Metabolism_Pathways.csv:ro
+      # Core production file 3 — trained bundle; hot-retraining rewrites it in place and survives rebuilds.
+      # (File must exist on the host, otherwise Docker would create a directory with this name.)
+      - ./multimodal_v4_bundle.pkl:/app/06_web_platform/multimodal_v4_bundle.pkl
+    environment:
+      # Curator token for approving community submissions. EMPTY/unset = approval disabled (safe default).
+      # Put a long random value in 06_web_platform/.env (see .env.example) — never commit it.
+      ANBIOGATE_ADMIN_TOKEN: ${ANBIOGATE_ADMIN_TOKEN:-}
+      # Public community submissions: closed by default (peer-review period). Set to true to open them.
+      ENABLE_PUBLIC_SUBMISSION: ${ENABLE_PUBLIC_SUBMISSION:-false}
+      PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-https://your-domain}
+      PORTAL_HOME_URL: /
+    expose: ["8000", "8501"]                    # reachable only through nginx
+    ports:
+      - "127.0.0.1:8000:8000"                   # loopback only — debug via `ssh -L`; never public
+      - "127.0.0.1:8501:8501"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8000/api/v1/status', timeout=8).status==200 else 1)"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 90s
+
+  nginx:
+    image: nginx:1.27-alpine
+    container_name: anaerobio_nginx
+    restart: unless-stopped
+    depends_on:
+      hub:
+        condition: service_healthy
+    ports:
+      - "80:80"                                 # add "443:443" + certificates when the domain is ready
+    volumes:
+      - ../nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ../site:/usr/share/nginx/html:ro            # static landing page (repo-root site/)

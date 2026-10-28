@@ -1,0 +1,63 @@
+{
+  "Task1_Tier1_Sludge_All": {
+    "n": 348,
+    "R2": 0.6211,
+    "Pearson_r": 0.789,
+    "Spearman_rho": 0.7693,
+    "RMSE": 27.13,
+    "MAE": 19.97,
+    "ROC_AUC": 0.8998
+  },
+  "Task1_Tier1_Sludge_InDomain": {
+    "n": 295,
+    "R2": 0.6364,
+    "Pearson_r": 0.7992,
+    "Spearman_rho": 0.7654,
+    "RMSE": 27.24,
+    "MAE": 19.94,
+    "ROC_AUC": 0.909
+  },
+  "Task1_Tier1_Sludge_OutOfDomain": {
+    "n": 53,
+    "R2": 0.4718,
+    "Pearson_r": 0.6932,
+    "Spearman_rho": 0.662,
+    "RMSE": 26.55,
+    "MAE": 20.11,
+    "ROC_AUC": 0.7957
+  },
+  "Task1_Full_Benchmark_All": {
+    "n": 496,
+    "R2": 0.5645,
+    "Pearson_r": 0.7548,
+    "Spearman_rho": 0.7164,
+    "RMSE": 27.97,
+    "MAE": 21.49,
+    "ROC_AUC": 0.8865
+  },
+  "Task1_Full_Benchmark_InDomain": {
+    "n": 421,
+    "R2": 0.5727,
+    "Pearson_r": 0.7601,
+    "Spearman_rho": 0.7107,
+    "RMSE": 28.19,
+    "MAE": 21.52,
+    "ROC_AUC": 0.8945
+  },
+  "Task2_Log10_DT50": {
+    "n": 85,
+    "R2": 0.4219,
+    "Pearson_r": 0.659,
+    "Spearman_rho": 0.742,
+    "RMSE": 0.43,
+    "MAE": 0.3
+  },
+  "Task3_Acclimation_Lag": {
+    "n": 75,
+    "R2": 0.4305,
+    "Pearson_r": 0.6594,
+    "Spearman_rho": 0.6741,
+    "RMSE": 20.03,
+    "MAE": 14.79
+  }
+}
