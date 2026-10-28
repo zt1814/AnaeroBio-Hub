@@ -20,6 +20,25 @@ os.environ["PYTHONPATH"] = f"{PLAT_DIR}{os.pathsep}{ROOT_DIR}{os.pathsep}{os.env
 os.environ.setdefault("ENABLE_PUBLIC_SUBMISSION", "false")
 os.environ.setdefault("ANAEROBIO_API_URL", "http://127.0.0.1:8000")
 
+# 核心修复 1：在根目录建立 ui -> 06_web_platform/ui 的符号链接，让 st.Page("ui/pages/...") 直接命中
+root_ui_link = os.path.join(ROOT_DIR, "ui")
+plat_ui_dir = os.path.join(PLAT_DIR, "ui")
+if not os.path.exists(root_ui_link) and os.path.exists(plat_ui_dir):
+    try:
+        os.symlink(plat_ui_dir, root_ui_link)
+    except Exception:
+        pass
+
+# 核心修复 2：包装 st.Page，若传入相对路径则自动拼接到 06_web_platform 下（双重保险）
+_orig_st_page = st.Page
+def _patched_st_page(page, *args, **kwargs):
+    if isinstance(page, str) and not os.path.isabs(page):
+        candidate = os.path.join(PLAT_DIR, page)
+        if os.path.exists(candidate):
+            page = candidate
+    return _orig_st_page(page, *args, **kwargs)
+st.Page = _patched_st_page
+
 def _is_api_up() -> bool:
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.settimeout(0.5)
@@ -41,6 +60,5 @@ def ensure_fastapi_backend():
 
 ensure_fastapi_backend()
 
-# 切换工作目录至 06_web_platform 并直接执行主界面 web_portal.py
 os.chdir(PLAT_DIR)
 runpy.run_path(PORTAL_FILE, run_name="__main__")
