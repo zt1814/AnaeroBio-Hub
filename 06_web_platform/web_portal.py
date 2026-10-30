@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""AnaeroBio-Hub v4.0 portal — multi-module Streamlit entry point.
+Run:  streamlit run web_portal.py            (the previous single-page app is kept as web_portal_v4_legacy.py)
+Pages live in ui/pages/, shared theme + helpers in ui/common.py.
+"""
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 # --- Reviewer One-Click Diagnostic Presets ---
 try:
@@ -10,17 +20,6 @@ except ImportError:
         {"label": "TMT Trithione (Gate III F430 Chelation)", "cas": "638-16-4", "smiles": "S=C1NC(=S)NC(=S)N1", "exp_thgp": -20.5, "oof_thgp": -9.0, "biowin7": -0.868, "ad": "Out-of-Domain"}
     ]
 
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""AnaeroBio-Hub v4.0 portal — multi-module Streamlit entry point.
-Run:  streamlit run web_portal.py            (the previous single-page app is kept as web_portal_v4_legacy.py)
-Pages live in ui/pages/, shared theme + helpers in ui/common.py.
-"""
-import os
-import sys
-
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
 import streamlit as st  # noqa: E402
 
 st.set_page_config(
@@ -32,12 +31,9 @@ st.set_page_config(
 
 from ui import common as C  # noqa: E402
 
-C.inject_css()
-C.top_bar()
-
 PAGES = {
     "Predict": [
-        st.Page("ui/pages/predictor.py", title="Predictor", icon=":material/science:", url_path="predictor", default=True),
+        st.Page("ui/pages/predictor.py", title="Predictor", icon=":material/science:", default=True),
         st.Page("ui/pages/batch.py", title="Batch screening", icon=":material/table_rows:", url_path="batch"),
     ],
     "Explore": [
@@ -54,5 +50,8 @@ try:
     nav = st.navigation(PAGES, position="top")
 except TypeError:  # Streamlit < 1.46 has no top navigation
     nav = st.navigation(PAGES)
+
+C.inject_css()
+C.top_bar()
 nav.run()
 C.footer()

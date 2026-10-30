@@ -13,10 +13,10 @@ import streamlit as st
 
 from model_engine import predict_molecule, load_bundle
 
-PORTAL_HOME = os.environ.get("PORTAL_HOME_URL", "/")
+PORTAL_HOME = os.environ.get("PORTAL_HOME_URL", "./")
 PUBLIC_BASE_URL = os.environ.get("PUBLIC_BASE_URL", "https://your-domain")
 # Where the "API docs" link points. Production: /docs (nginx). Local dev: set by launch_platform.ps1.
-API_DOCS_URL = os.environ.get("API_DOCS_URL", "/docs")
+API_DOCS_URL = os.environ.get("API_DOCS_URL", "./api")
 # ANAERO_DEBUG=1 shows the real traceback in the page (local development only; never on the public site).
 DEBUG = os.environ.get("ANAERO_DEBUG", "") == "1"
 # Structure image when RDKit is missing: "pubchem" (fetches a PNG from PubChem; the SMILES is sent to PubChem) or "none".
